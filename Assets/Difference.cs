@@ -11,6 +11,12 @@ public class Difference : MonoBehaviour, IPointerClickHandler
 
     private void Awake()
     {
+        if (DataManager.instance.gameData.findedDifference.Contains(gameObject.GetInstanceID()))
+        {
+            gameObject.SetActive(false);
+            isFind = true;
+        }
+        
         image = GetComponent<Image>();
     }
 
@@ -30,7 +36,7 @@ public class Difference : MonoBehaviour, IPointerClickHandler
             .AppendInterval(.5f)
             .AppendCallback(() =>
             {
-                
+                DataManager.instance.AddFindedDifference(gameObject.GetInstanceID());
                 gameObject.SetActive(false);
             });
     }

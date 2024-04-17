@@ -1,7 +1,6 @@
 using System;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Zenject;
 
 public class UIManager : MonoBehaviour
@@ -37,9 +36,8 @@ public class UIManager : MonoBehaviour
 
     public void UpdateBar(Level level)
     {
-        SetTitle("Level" + level.number);
-        UpdateCountDifference(level.countDifferences);
-        UpdateTime(120);
+        SetTitle("Level " + DataManager.instance.gameData.current_level);
+        UpdateCountDifference(levelMaster.RemainingDifferences);
     }
     
     private void SetTitle(string title)
@@ -49,7 +47,7 @@ public class UIManager : MonoBehaviour
 
     public void UpdateCountDifference(int count)
     {
-        textCountDifference.text = count.ToString();
+        textCountDifference.text = $"Осталось: {count}";
     }
 
     public void UpdateTime(float time)
@@ -66,6 +64,13 @@ public class UIManager : MonoBehaviour
     public void ButtonRestartGame()
     {
         loseGameWindow.SetActive(false);
+        GlobalEventManager.RestartGame.Invoke();
+    }
+    
+    public void ButtonNextGame()
+    {
+        loseGameWindow.SetActive(false);
+        GlobalEventManager.NextLevel.Invoke();
         GlobalEventManager.RestartGame.Invoke();
     }
 }

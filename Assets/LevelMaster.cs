@@ -1,7 +1,5 @@
-using System;
-using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.Serialization;
 using Zenject;
 
 public class LevelMaster : MonoBehaviour
@@ -23,7 +21,7 @@ public class LevelMaster : MonoBehaviour
     
     public int RemainingDifferences
     {
-        get => remainingDifferences;
+        get => currentLevel.countDifferences - DataManager.instance.gameData.findedDifference.Count;
         set
         {
             remainingDifferences = value;
@@ -53,9 +51,7 @@ public class LevelMaster : MonoBehaviour
     private void SetLevel()
     {
         GlobalEventManager.UpdateBar.Invoke(currentLevel);
-        uiManager.UpdateBar(currentLevel);
-        remainingDifferences = prefabLevel.countDifferences;
-        timer.Launch(10);
+        timer.Launch(DataManager.instance.gameData.remaining_time);
     }
 
     private void CreateLevel()

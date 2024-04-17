@@ -24,6 +24,7 @@ public class Timer : MonoBehaviour
     private IEnumerator TimerCoroutine(float time, float period) {
         for(float remainingTime = time; remainingTime >= 0; remainingTime--) {
             uiManager.UpdateTime(remainingTime);
+            DataManager.instance.UpdateRemainingTime(remainingTime);
             yield return new WaitForSeconds(period);
         }
         GlobalEventManager.LoseGame.Invoke();
