@@ -11,7 +11,7 @@ public class Difference : MonoBehaviour, IPointerClickHandler
 
     private void Awake()
     {
-        if (DataManager.instance.gameData.findedDifference.Contains(gameObject.GetInstanceID()))
+        if (DataManager.instance.gameData.findedDifference.Contains(name))
         {
             gameObject.SetActive(false);
             isFind = true;
@@ -24,6 +24,7 @@ public class Difference : MonoBehaviour, IPointerClickHandler
     {
         isFind = true;
         SpawnParticle();
+        DataManager.instance.AddFindedDifference(name);
         GlobalEventManager.DifferenceFound.Invoke();
         
         DOTween.Sequence()
@@ -36,16 +37,12 @@ public class Difference : MonoBehaviour, IPointerClickHandler
             .AppendInterval(.5f)
             .AppendCallback(() =>
             {
-                DataManager.instance.AddFindedDifference(gameObject.GetInstanceID());
                 gameObject.SetActive(false);
             });
     }
 
-    private void SpawnParticle()
-    {
-        EffectManager.instance.CreateFindEffect(transform);
-    }
-    
+    private void SpawnParticle() => EffectManager.instance.CreateFindEffect(transform);
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (isFind) return;

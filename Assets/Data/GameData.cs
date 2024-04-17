@@ -5,7 +5,7 @@ public class GameData
 {
     public int current_level;
     public float remaining_time;
-    public List<int> findedDifference = new();
+    public List<string> findedDifference = new();
     
     public GameData(int level, float time)
     {

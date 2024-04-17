@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using Zenject;
 
@@ -32,6 +30,9 @@ public class Timer : MonoBehaviour
 
     private void OnEnable()
     {
-        GlobalEventManager.EndGame.AddListener(() => StopCoroutine(coroutineTimer));
+        GlobalEventManager.EndGame.AddListener(() =>
+        {
+            if (coroutineTimer != null) StopCoroutine(coroutineTimer);
+        });
     }
 }

@@ -2,13 +2,13 @@ using UnityEngine.Events;
 
 public static class GlobalEventManager
 {
-    public static UnityEvent StartGame = new();
-    public static UnityEvent LoseGame = new();
-    public static UnityEvent EndGame = new();
+    public static readonly UnityEvent StartGame = new();
+    public static readonly UnityEvent LoseGame = new();
+    public static readonly UnityEvent EndGame = new();
     
-    public static UnityEvent RestartGame = new();
-    public static UnityEvent NextLevel = new();
+    public static readonly UnityEvent RestartGame = new();
+    public static readonly UnityEvent NextLevel = new();
 
-    public static UnityEvent DifferenceFound = new();
-    public static UnityEvent<Level> UpdateBar = new();
+    public static readonly UnityEvent DifferenceFound = new();
+    public static readonly UnityEvent<Level> UpdateBar = new();
 }

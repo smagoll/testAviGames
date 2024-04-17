@@ -1,5 +1,9 @@
-using Unity.VisualScripting;
+using System;
+using AppodealStack.Monetization.Api;
+using AppodealStack.Monetization.Common;
 using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 using Zenject;
 
 public class LevelMaster : MonoBehaviour
@@ -8,25 +12,21 @@ public class LevelMaster : MonoBehaviour
     [SerializeField]
     private Transform levelTransform;
     [SerializeField]
-    private Level prefabLevel;
+    private AssetReferenceGameObject levelReference;
 
-    [SerializeField]
-    private int remainingDifferences;
-
+    private GameObject level;
     private Timer timer;
-    
     private Level currentLevel;
     
     public Level CurrentLevel => currentLevel;
-    
+
     public int RemainingDifferences
     {
-        get => currentLevel.countDifferences - DataManager.instance.gameData.findedDifference.Count;
-        set
+        get
         {
-            remainingDifferences = value;
-            if(value == 0) GlobalEventManager.EndGame.Invoke();
-            uiManager.UpdateCountDifference(value);
+            var value = currentLevel.CountDifferences - DataManager.instance.gameData.findedDifference.Count;
+            if (value == 0) GlobalEventManager.EndGame.Invoke();
+            return value;
         }
     }
 
@@ -43,9 +43,10 @@ public class LevelMaster : MonoBehaviour
 
     private void OnEnable()
     {
-        GlobalEventManager.DifferenceFound.AddListener(() => RemainingDifferences--);
+        GlobalEventManager.DifferenceFound.AddListener(() => uiManager.UpdateCountDifference(RemainingDifferences));
         GlobalEventManager.StartGame.AddListener(CreateLevel);
         GlobalEventManager.RestartGame.AddListener(RestartGame);
+        AppodealCallbacks.Interstitial.OnClosed += OnInterstitialClosed;
     }
 
     private void SetLevel()
@@ -54,15 +55,27 @@ public class LevelMaster : MonoBehaviour
         timer.Launch(DataManager.instance.gameData.remaining_time);
     }
 
-    private void CreateLevel()
+    private void CreateLevel() => levelReference.InstantiateAsync(levelTransform).Completed += OnLevelInstantiated;
+
+    private void OnLevelInstantiated(AsyncOperationHandle<GameObject> handle)
     {
-        currentLevel = Instantiate(prefabLevel, levelTransform);
-        SetLevel();
+        if (handle.Status == AsyncOperationStatus.Succeeded)
+        {
+            if(currentLevel != null) levelReference.ReleaseInstance(currentLevel.gameObject);
+            currentLevel = handle.Result.GetComponent<Level>();
+            SetLevel();
+        };
     }
 
     private void RestartGame()
     {
-        Destroy(currentLevel.gameObject);
+        if(Appodeal.IsLoaded(AppodealAdType.Interstitial)) {
+            Appodeal.Show(AppodealShowStyle.Interstitial);
+        }
+    }
+    
+    private void OnInterstitialClosed(object sender, EventArgs e)
+    {
         CreateLevel();
     }
 }

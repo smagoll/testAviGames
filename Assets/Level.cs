@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class Level : MonoBehaviour
 {
-    public int number;
-    public int countDifferences;
+    private int countDifferences;
+    public int CountDifferences => countDifferences;
+
+    private void Awake()
+    {
+        countDifferences = FakeLocation.GetComponentsInChildren<Difference>().Length;
+    }
 
     [SerializeField]
     private GameObject trueLocation;

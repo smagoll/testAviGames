@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
+    [SerializeField]
+    private float timeLevel;
     public static DataManager instance;
 
     public GameData gameData;
@@ -23,13 +25,12 @@ public class DataManager : MonoBehaviour
             instance = this;
         
         filePath = Application.persistentDataPath + "GameData.json";
-        Debug.Log(filePath);
         Load();
     }
 
     private void CreateNew()
     {
-        gameData = new(1, 120f);
+        gameData = new(1, timeLevel);
         Save();
     }
 
@@ -54,7 +55,7 @@ public class DataManager : MonoBehaviour
 
     private void RestartLevel()
     {
-        gameData.remaining_time = 120f;
+        gameData.remaining_time = timeLevel;
         gameData.findedDifference.Clear();
         Save();
     }
@@ -62,8 +63,7 @@ public class DataManager : MonoBehaviour
     private void NextLevel()
     {
         gameData.current_level++;
-        gameData.remaining_time = 120f;
-        Save();
+        RestartLevel();
     }
 
     public void UpdateRemainingTime(float time)
@@ -72,8 +72,8 @@ public class DataManager : MonoBehaviour
         Save();
     }
 
-    public void AddFindedDifference(int id)
+    public void AddFindedDifference(string title)
     {
-        gameData.findedDifference.Add(id);
+        gameData.findedDifference.Add(title);
     }
 }

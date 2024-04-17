@@ -69,7 +69,7 @@ public class UIManager : MonoBehaviour
     
     public void ButtonNextGame()
     {
-        loseGameWindow.SetActive(false);
+        endGameWindow.SetActive(false);
         GlobalEventManager.NextLevel.Invoke();
         GlobalEventManager.RestartGame.Invoke();
     }
