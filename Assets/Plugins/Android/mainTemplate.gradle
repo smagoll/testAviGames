@@ -16,9 +16,10 @@ dependencies {
     implementation 'com.appodeal.ads.sdk.networks:ironsource:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/IronSourceDependencies.xml:7
     implementation 'com.appodeal.ads.sdk.networks:meta:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/MetaAudienceNetworkDependencies.xml:9
     implementation 'com.appodeal.ads.sdk.networks:mintegral:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/MintegralDependencies.xml:9
-    implementation 'com.appodeal.ads.sdk.networks:my_target:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/MyTargetDependencies.xml:4
+    implementation 'com.appodeal.ads.sdk.networks:my_target:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/MyTargetDependencies.xml:8
+    implementation 'com.appodeal.ads.sdk.networks:unity_ads:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/UnityDependencies.xml:8
     implementation 'com.appodeal.ads.sdk.networks:vungle:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/VungleDependencies.xml:9
-    implementation 'com.appodeal.ads.sdk.networks:yandex:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/YandexDependencies.xml:4
+    implementation 'com.appodeal.ads.sdk.networks:yandex:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/YandexDependencies.xml:7
     implementation 'com.appodeal.ads.sdk.services:adjust:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/AdjustDependencies.xml:11
     implementation 'com.appodeal.ads.sdk.services:appsflyer:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/AppsFlyerDependencies.xml:7
     implementation 'com.appodeal.ads.sdk.services:facebook_analytics:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/MetaDependencies.xml:7
@@ -26,6 +27,17 @@ dependencies {
     implementation 'com.appodeal.ads.sdk.services:sentry_analytics:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/SentryDependencies.xml:4
     implementation 'com.appodeal.ads.sdk:core:3.2.1' // Assets/Appodeal/Editor/Dependencies/AppodealDependencies.xml:7
 // Android Resolver Dependencies End
+
+    implementation('com.appodeal.ads.sdk.networks:my_target:3.2.1.0') {
+        exclude group: 'com.android.billingclient', module: 'billing'
+    }
+    implementation('com.appodeal.ads.sdk.networks:yandex:3.2.1.0') {
+        exclude group: 'com.android.billingclient', module: 'billing'
+    }
+    configurations.all {
+        exclude group: 'com.android.billingclient', module: 'billing'
+    }
+
 **DEPS**}
 
 // Android Resolver Exclusions Start
