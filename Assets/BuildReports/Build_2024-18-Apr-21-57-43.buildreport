@@ -1,0 +1,3948 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!641289076 &-8663449235388161220
+AudioBuildInfo:
+  m_IsAudioDisabled: 0
+  m_AudioClipCount: 0
+  m_AudioMixerCount: 0
+--- !u!1521398425 &-7742745946939267872
+VideoBuildInfo:
+  m_VideoClipCount: 0
+  m_IsVideoModuleDisabled: 0
+--- !u!114 &-6944739699004808771
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13803, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetRequirements:
+    minSdkVersion: 22
+    glesMinVersion: 196608
+    openGLRequireES31AEP: 0
+    vulkanMinVersion: 4194304
+    targetArchitectures: 3
+    requiresSystemPartitionInstallation: 0
+  outputPath: D:/Builds/testAviGames/testAviGames.apk
+  buildOptions: 524297
+  buildApkPerCpuArchitecture: 0
+  buildAppBundle: 0
+  splitMode: 0
+  targetArchitectures: 3
+  versionCode: 1
+  packageName: com.testAviGames.test
+  safeProductName: testAviGames
+  activityWithIntent: com.unity3d.player.UnityPlayerActivity
+  stagingArea: Temp/StagingArea
+  patchPackage: 0
+--- !u!114 &-5911041477648040484
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13802, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedDependencies:
+  - key: Required by Scripts
+    value: []
+    icon: class/MonoScript
+    size: 0
+  - key: AndroidJNI Module
+    value: []
+    icon: package/com.unity.modules.androidjni
+    size: 0
+  - key: Animation Module
+    value:
+    - Animator
+    - AnimatorController
+    - AnimatorOverrideController
+    - RuntimeAnimatorController
+    icon: package/com.unity.modules.animation
+    size: 0
+  - key: Animator
+    value: []
+    icon: class/Animator
+    size: 0
+  - key: AnimatorController
+    value: []
+    icon: class/AnimatorController
+    size: 0
+  - key: AnimatorOverrideController
+    value: []
+    icon: class/AnimatorOverrideController
+    size: 0
+  - key: RuntimeAnimatorController
+    value: []
+    icon: class/RuntimeAnimatorController
+    size: 0
+  - key: AssetBundle Module
+    value:
+    - AssetBundle
+    - Required by UnityWebRequestAssetBundle Module
+    icon: package/com.unity.modules.assetbundle
+    size: 0
+  - key: AssetBundle
+    value: []
+    icon: class/AssetBundle
+    size: 0
+  - key: Required by UnityWebRequestAssetBundle Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequestassetbundle
+    size: 0
+  - key: Audio Module
+    value:
+    - AudioBehaviour
+    - AudioClip
+    - AudioListener
+    - AudioManager
+    - AudioMixer
+    - AudioMixerGroup
+    - AudioMixerSnapshot
+    - AudioSource
+    - SampleClip
+    icon: package/com.unity.modules.audio
+    size: 0
+  - key: AudioBehaviour
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioBehaviour
+    size: 0
+  - key: Assets/Scenes/Menu.unity
+    value: []
+    icon: class/SceneAsset
+    size: 0
+  - key: AudioClip
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioClip
+    size: 0
+  - key: AudioListener
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioListener
+    size: 0
+  - key: AudioManager
+    value: []
+    icon: class/AudioManager
+    size: 0
+  - key: AudioMixer
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioMixer
+    size: 0
+  - key: AudioMixerGroup
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioMixerGroup
+    size: 0
+  - key: AudioMixerSnapshot
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioMixerSnapshot
+    size: 0
+  - key: AudioSource
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/AudioSource
+    size: 0
+  - key: SampleClip
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/SampleClip
+    size: 0
+  - key: Core Module
+    value:
+    - Behaviour
+    - BuildSettings
+    - Camera
+    - Component
+    - ComputeShader
+    - Cubemap
+    - CubemapArray
+    - DelayedCallManager
+    - EditorExtension
+    - GameManager
+    - GameObject
+    - GlobalGameManager
+    - GraphicsSettings
+    - InputManager
+    - LevelGameManager
+    - Light
+    - LightProbes
+    - LightingSettings
+    - LightmapSettings
+    - LineRenderer
+    - LowerResBlitTexture
+    - Material
+    - Mesh
+    - MeshFilter
+    - MeshRenderer
+    - MonoBehaviour
+    - MonoManager
+    - MonoScript
+    - NamedObject
+    - Object
+    - PlayerSettings
+    - PreloadData
+    - QualitySettings
+    - RectTransform
+    - ReflectionProbe
+    - RenderSettings
+    - RenderTexture
+    - Renderer
+    - ResourceManager
+    - RuntimeInitializeOnLoadManager
+    - Shader
+    - ShaderNameRegistry
+    - Skybox
+    - SortingGroup
+    - Sprite
+    - SpriteAtlas
+    - SpriteRenderer
+    - TagManager
+    - TextAsset
+    - Texture
+    - Texture2D
+    - Texture2DArray
+    - Texture3D
+    - TimeManager
+    - TrailRenderer
+    - Transform
+    - Required by AndroidJNI Module
+    - Required by Animation Module
+    - Required by AssetBundle Module
+    - Required by Audio Module
+    - Required by HotReload Module
+    - Required by IMGUI Module
+    - Required by Input Module
+    - Required by InputLegacy Module
+    - Required by JSONSerialize Module
+    - Required by ParticleSystem Module
+    - Required by PerformanceReporting Module
+    - Required by Physics Module
+    - Required by Physics2D Module
+    - Required by RuntimeInitializeOnLoadManagerInitializer Module
+    - Required by SpriteMask Module
+    - Required by Subsystems Module
+    - Required by TLS Module
+    - Required by TextCoreFontEngine Module
+    - Required by TextCoreTextEngine Module
+    - Required by TextRendering Module
+    - Required by UI Module
+    - Required by UIElements Module
+    - Required by UnityAnalytics Module
+    - Required by UnityAnalyticsCommon Module
+    - Required by UnityConnect Module
+    - Required by UnityWebRequest Module
+    - Required by UnityWebRequestAssetBundle Module
+    - Required by VFX Module
+    - Required by VR Module
+    - Required by XR Module
+    icon: package/com.unity.modules.core
+    size: 0
+  - key: Behaviour
+    value: []
+    icon: class/Behaviour
+    size: 0
+  - key: BuildSettings
+    value: []
+    icon: class/BuildSettings
+    size: 0
+  - key: Camera
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Camera
+    size: 0
+  - key: Component
+    value: []
+    icon: class/Component
+    size: 0
+  - key: ComputeShader
+    value: []
+    icon: class/ComputeShader
+    size: 0
+  - key: Cubemap
+    value: []
+    icon: class/Cubemap
+    size: 0
+  - key: CubemapArray
+    value: []
+    icon: class/CubemapArray
+    size: 0
+  - key: DelayedCallManager
+    value: []
+    icon: class/DelayedCallManager
+    size: 0
+  - key: EditorExtension
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/EditorExtension
+    size: 0
+  - key: GameManager
+    value: []
+    icon: class/GameManager
+    size: 0
+  - key: GameObject
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/GameObject
+    size: 0
+  - key: GlobalGameManager
+    value: []
+    icon: class/GlobalGameManager
+    size: 0
+  - key: GraphicsSettings
+    value: []
+    icon: class/GraphicsSettings
+    size: 0
+  - key: InputManager
+    value: []
+    icon: class/InputManager
+    size: 0
+  - key: LevelGameManager
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/LevelGameManager
+    size: 0
+  - key: Light
+    value: []
+    icon: class/Light
+    size: 0
+  - key: LightProbes
+    value: []
+    icon: class/LightProbes
+    size: 0
+  - key: LightingSettings
+    value: []
+    icon: class/LightingSettings
+    size: 0
+  - key: LightmapSettings
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/LightmapSettings
+    size: 0
+  - key: LineRenderer
+    value: []
+    icon: class/LineRenderer
+    size: 0
+  - key: LowerResBlitTexture
+    value: []
+    icon: class/LowerResBlitTexture
+    size: 0
+  - key: Material
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Material
+    size: 0
+  - key: Mesh
+    value: []
+    icon: class/Mesh
+    size: 0
+  - key: MeshFilter
+    value: []
+    icon: class/MeshFilter
+    size: 0
+  - key: MeshRenderer
+    value: []
+    icon: class/MeshRenderer
+    size: 0
+  - key: MonoBehaviour
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/MonoBehaviour
+    size: 0
+  - key: MonoManager
+    value: []
+    icon: class/MonoManager
+    size: 0
+  - key: MonoScript
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/MonoScript
+    size: 0
+  - key: NamedObject
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/NamedObject
+    size: 0
+  - key: Object
+    value: []
+    icon: class/Object
+    size: 0
+  - key: PlayerSettings
+    value: []
+    icon: class/PlayerSettings
+    size: 0
+  - key: PreloadData
+    value: []
+    icon: class/PreloadData
+    size: 0
+  - key: QualitySettings
+    value: []
+    icon: class/QualitySettings
+    size: 0
+  - key: RectTransform
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/RectTransform
+    size: 0
+  - key: ReflectionProbe
+    value: []
+    icon: class/ReflectionProbe
+    size: 0
+  - key: RenderSettings
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/RenderSettings
+    size: 0
+  - key: RenderTexture
+    value: []
+    icon: class/RenderTexture
+    size: 0
+  - key: Renderer
+    value: []
+    icon: class/Renderer
+    size: 0
+  - key: ResourceManager
+    value: []
+    icon: class/ResourceManager
+    size: 0
+  - key: RuntimeInitializeOnLoadManager
+    value: []
+    icon: class/RuntimeInitializeOnLoadManager
+    size: 0
+  - key: Shader
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Shader
+    size: 0
+  - key: ShaderNameRegistry
+    value: []
+    icon: class/ShaderNameRegistry
+    size: 0
+  - key: Skybox
+    value: []
+    icon: class/Skybox
+    size: 0
+  - key: SortingGroup
+    value: []
+    icon: class/SortingGroup
+    size: 0
+  - key: Sprite
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Sprite
+    size: 0
+  - key: SpriteAtlas
+    value: []
+    icon: class/SpriteAtlas
+    size: 0
+  - key: SpriteRenderer
+    value: []
+    icon: class/SpriteRenderer
+    size: 0
+  - key: TagManager
+    value: []
+    icon: class/TagManager
+    size: 0
+  - key: TextAsset
+    value: []
+    icon: class/TextAsset
+    size: 0
+  - key: Texture
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Texture
+    size: 0
+  - key: Texture2D
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Texture2D
+    size: 0
+  - key: Texture2DArray
+    value: []
+    icon: class/Texture2DArray
+    size: 0
+  - key: Texture3D
+    value: []
+    icon: class/Texture3D
+    size: 0
+  - key: TimeManager
+    value: []
+    icon: class/TimeManager
+    size: 0
+  - key: TrailRenderer
+    value: []
+    icon: class/TrailRenderer
+    size: 0
+  - key: Transform
+    value: []
+    icon: class/Transform
+    size: 0
+  - key: Required by AndroidJNI Module
+    value: []
+    icon: package/com.unity.modules.androidjni
+    size: 0
+  - key: Required by Animation Module
+    value: []
+    icon: package/com.unity.modules.animation
+    size: 0
+  - key: Required by AssetBundle Module
+    value: []
+    icon: package/com.unity.modules.assetbundle
+    size: 0
+  - key: Required by Audio Module
+    value: []
+    icon: package/com.unity.modules.audio
+    size: 0
+  - key: Required by HotReload Module
+    value: []
+    icon: package/com.unity.modules.hotreload
+    size: 0
+  - key: Required by IMGUI Module
+    value: []
+    icon: package/com.unity.modules.imgui
+    size: 0
+  - key: Required by Input Module
+    value: []
+    icon: package/com.unity.modules.input
+    size: 0
+  - key: Required by InputLegacy Module
+    value: []
+    icon: package/com.unity.modules.inputlegacy
+    size: 0
+  - key: Required by JSONSerialize Module
+    value: []
+    icon: package/com.unity.modules.jsonserialize
+    size: 0
+  - key: Required by ParticleSystem Module
+    value: []
+    icon: package/com.unity.modules.particlesystem
+    size: 0
+  - key: Required by PerformanceReporting Module
+    value: []
+    icon: package/com.unity.modules.performancereporting
+    size: 0
+  - key: Required by Physics Module
+    value: []
+    icon: package/com.unity.modules.physics
+    size: 0
+  - key: Required by Physics2D Module
+    value: []
+    icon: package/com.unity.modules.physics2d
+    size: 0
+  - key: Required by RuntimeInitializeOnLoadManagerInitializer Module
+    value: []
+    icon: package/com.unity.modules.runtimeinitializeonloadmanagerinitializer
+    size: 0
+  - key: Required by SpriteMask Module
+    value: []
+    icon: package/com.unity.modules.spritemask
+    size: 0
+  - key: Required by Subsystems Module
+    value: []
+    icon: package/com.unity.modules.subsystems
+    size: 0
+  - key: Required by TLS Module
+    value: []
+    icon: package/com.unity.modules.tls
+    size: 0
+  - key: Required by TextCoreFontEngine Module
+    value: []
+    icon: package/com.unity.modules.textcorefontengine
+    size: 0
+  - key: Required by TextCoreTextEngine Module
+    value: []
+    icon: package/com.unity.modules.textcoretextengine
+    size: 0
+  - key: Required by TextRendering Module
+    value: []
+    icon: package/com.unity.modules.textrendering
+    size: 0
+  - key: Required by UI Module
+    value: []
+    icon: package/com.unity.modules.ui
+    size: 0
+  - key: Required by UIElements Module
+    value: []
+    icon: package/com.unity.modules.uielements
+    size: 0
+  - key: Required by UnityAnalytics Module
+    value: []
+    icon: package/com.unity.modules.unityanalytics
+    size: 0
+  - key: Required by UnityAnalyticsCommon Module
+    value: []
+    icon: package/com.unity.modules.unityanalyticscommon
+    size: 0
+  - key: Required by UnityConnect Module
+    value: []
+    icon: package/com.unity.modules.unityconnect
+    size: 0
+  - key: Required by UnityWebRequest Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequest
+    size: 0
+  - key: Required by VFX Module
+    value: []
+    icon: package/com.unity.modules.vfx
+    size: 0
+  - key: Required by VR Module
+    value: []
+    icon: package/com.unity.modules.vr
+    size: 0
+  - key: Required by XR Module
+    value: []
+    icon: package/com.unity.modules.xr
+    size: 0
+  - key: HotReload Module
+    value:
+    - Required by AssetBundle Module
+    icon: package/com.unity.modules.hotreload
+    size: 0
+  - key: IMGUI Module
+    value:
+    - Required by UIElements Module
+    icon: package/com.unity.modules.imgui
+    size: 0
+  - key: Input Module
+    value:
+    - Required by VR Module
+    - Required by XR Module
+    icon: package/com.unity.modules.input
+    size: 0
+  - key: InputLegacy Module
+    value:
+    - Required by IMGUI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.inputlegacy
+    size: 0
+  - key: JSONSerialize Module
+    value:
+    - Required by Input Module
+    - Required by PerformanceReporting Module
+    - Required by RuntimeInitializeOnLoadManagerInitializer Module
+    - Required by Subsystems Module
+    - Required by UIElements Module
+    - Required by UnityAnalytics Module
+    - Required by VR Module
+    - Required by XR Module
+    icon: package/com.unity.modules.jsonserialize
+    size: 0
+  - key: ParticleSystem Module
+    value:
+    - ParticleSystem
+    - ParticleSystemRenderer
+    icon: package/com.unity.modules.particlesystem
+    size: 0
+  - key: ParticleSystem
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/ParticleSystem
+    size: 0
+  - key: ParticleSystemRenderer
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/ParticleSystemRenderer
+    size: 0
+  - key: PerformanceReporting Module
+    value:
+    - Required by Analytics Performance Reporting (See Analytics Services Window)
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.performancereporting
+    size: 0
+  - key: Required by Analytics Performance Reporting (See Analytics Services Window)
+    value: []
+    icon: class/PlayerSettings
+    size: 0
+  - key: Physics Module
+    value:
+    - Collider
+    - PhysicsManager
+    - Rigidbody
+    - Required by VR Module
+    - Required by XR Module
+    icon: package/com.unity.modules.physics
+    size: 0
+  - key: Collider
+    value: []
+    icon: class/Collider
+    size: 0
+  - key: PhysicsManager
+    value: []
+    icon: class/PhysicsManager
+    size: 0
+  - key: Rigidbody
+    value: []
+    icon: class/Rigidbody
+    size: 0
+  - key: Physics2D Module
+    value:
+    - Collider2D
+    - Physics2DSettings
+    - Rigidbody2D
+    icon: package/com.unity.modules.physics2d
+    size: 0
+  - key: Collider2D
+    value: []
+    icon: class/Collider2D
+    size: 0
+  - key: Physics2DSettings
+    value: []
+    icon: class/Physics2DSettings
+    size: 0
+  - key: Rigidbody2D
+    value: []
+    icon: class/Rigidbody2D
+    size: 0
+  - key: RuntimeInitializeOnLoadManagerInitializer Module
+    value:
+    - RuntimeInitializeOnLoadManagerInitializer is always required
+    icon: package/com.unity.modules.runtimeinitializeonloadmanagerinitializer
+    size: 0
+  - key: RuntimeInitializeOnLoadManagerInitializer is always required
+    value: []
+    icon: class/DefaultAsset
+    size: 0
+  - key: SharedInternals Module
+    value:
+    - Required by AndroidJNI Module
+    - Required by Animation Module
+    - Required by AssetBundle Module
+    - Required by Audio Module
+    - Required by Core Module
+    - Required by HotReload Module
+    - Required by IMGUI Module
+    - Required by Input Module
+    - Required by InputLegacy Module
+    - Required by JSONSerialize Module
+    - Required by ParticleSystem Module
+    - Required by PerformanceReporting Module
+    - Required by Physics Module
+    - Required by Physics2D Module
+    - Required by RuntimeInitializeOnLoadManagerInitializer Module
+    - Required by SpriteMask Module
+    - Required by Subsystems Module
+    - Required by TLS Module
+    - Required by TextCoreFontEngine Module
+    - Required by TextCoreTextEngine Module
+    - Required by TextRendering Module
+    - Required by UI Module
+    - Required by UIElements Module
+    - Required by UnityAnalytics Module
+    - Required by UnityAnalyticsCommon Module
+    - Required by UnityConnect Module
+    - Required by UnityWebRequest Module
+    - Required by UnityWebRequestAssetBundle Module
+    - Required by VFX Module
+    - Required by VR Module
+    - Required by XR Module
+    icon: package/com.unity.modules.sharedinternals
+    size: 0
+  - key: Required by Core Module
+    value: []
+    icon: package/com.unity.modules.core
+    size: 0
+  - key: SpriteMask Module
+    value: []
+    icon: package/com.unity.modules.spritemask
+    size: 0
+  - key: Subsystems Module
+    value:
+    - Required by XR Module
+    icon: package/com.unity.modules.subsystems
+    size: 0
+  - key: TLS Module
+    value:
+    - Required by UnityWebRequest Module
+    icon: package/com.unity.modules.tls
+    size: 0
+  - key: TextCoreFontEngine Module
+    value:
+    - Required by TextCoreTextEngine Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.textcorefontengine
+    size: 0
+  - key: TextCoreTextEngine Module
+    value:
+    - Required by IMGUI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.textcoretextengine
+    size: 0
+  - key: TextRendering Module
+    value:
+    - Font
+    - Required by IMGUI Module
+    - Required by TextCoreFontEngine Module
+    - Required by TextCoreTextEngine Module
+    - Required by UI Module
+    - Required by UIElements Module
+    icon: package/com.unity.modules.textrendering
+    size: 0
+  - key: Font
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Font
+    size: 0
+  - key: UI Module
+    value:
+    - Canvas
+    - CanvasGroup
+    - CanvasRenderer
+    - Required by UIElements Module
+    icon: package/com.unity.modules.ui
+    size: 0
+  - key: Canvas
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/Canvas
+    size: 0
+  - key: CanvasGroup
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/CanvasGroup
+    size: 0
+  - key: CanvasRenderer
+    value:
+    - Assets/Scenes/Menu.unity
+    icon: class/CanvasRenderer
+    size: 0
+  - key: UIElements Module
+    value: []
+    icon: package/com.unity.modules.uielements
+    size: 0
+  - key: UnityAnalytics Module
+    value:
+    - Required by Analytics Performance Reporting (See Analytics Services Window)
+    - Required by PerformanceReporting Module
+    - Required by UnityAnalytics (See Services Window)
+    icon: package/com.unity.modules.unityanalytics
+    size: 0
+  - key: Required by UnityAnalytics (See Services Window)
+    value: []
+    icon: class/PlayerSettings
+    size: 0
+  - key: UnityAnalyticsCommon Module
+    value:
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.unityanalyticscommon
+    size: 0
+  - key: UnityConnect Module
+    value:
+    - UnityConnectSettings
+    - Required by PerformanceReporting Module
+    - Required by UnityAnalytics (See Services Window)
+    - Required by UnityAnalytics Module
+    icon: package/com.unity.modules.unityconnect
+    size: 0
+  - key: UnityConnectSettings
+    value:
+    - Required by UnityAnalytics
+    icon: class/UnityConnectSettings
+    size: 0
+  - key: Required by UnityAnalytics
+    value: []
+    icon: class/Required by UnityAnalytics
+    size: 0
+  - key: UnityWebRequest Module
+    value:
+    - Required by UnityAnalytics Module
+    - Required by UnityWebRequestAssetBundle Module
+    icon: package/com.unity.modules.unitywebrequest
+    size: 0
+  - key: UnityWebRequestAssetBundle Module
+    value: []
+    icon: package/com.unity.modules.unitywebrequestassetbundle
+    size: 0
+  - key: VFX Module
+    value:
+    - VFXManager
+    - VisualEffect
+    - VisualEffectAsset
+    - VisualEffectObject
+    icon: package/com.unity.modules.vfx
+    size: 0
+  - key: VFXManager
+    value: []
+    icon: class/VFXManager
+    size: 0
+  - key: VisualEffect
+    value: []
+    icon: class/VisualEffect
+    size: 0
+  - key: VisualEffectAsset
+    value: []
+    icon: class/VisualEffectAsset
+    size: 0
+  - key: VisualEffectObject
+    value: []
+    icon: class/VisualEffectObject
+    size: 0
+  - key: VR Module
+    value: []
+    icon: package/com.unity.modules.vr
+    size: 0
+  - key: XR Module
+    value:
+    - Required by VR Module
+    icon: package/com.unity.modules.xr
+    size: 0
+  modules:
+  - AndroidJNI Module
+  - Animation Module
+  - AssetBundle Module
+  - Audio Module
+  - Core Module
+  - HotReload Module
+  - IMGUI Module
+  - Input Module
+  - InputLegacy Module
+  - JSONSerialize Module
+  - ParticleSystem Module
+  - PerformanceReporting Module
+  - Physics Module
+  - Physics2D Module
+  - RuntimeInitializeOnLoadManagerInitializer Module
+  - SharedInternals Module
+  - SpriteMask Module
+  - Subsystems Module
+  - TLS Module
+  - TextCoreFontEngine Module
+  - TextCoreTextEngine Module
+  - TextRendering Module
+  - UI Module
+  - UIElements Module
+  - UnityAnalytics Module
+  - UnityAnalyticsCommon Module
+  - UnityConnect Module
+  - UnityWebRequest Module
+  - UnityWebRequestAssetBundle Module
+  - VFX Module
+  - VR Module
+  - XR Module
+  serializedSizes: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  totalSize: 0
+--- !u!1125 &1
+BuildReport:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Build_2024-18-Apr-21-57-43
+  m_Summary:
+    buildStartTime:
+      serializedVersion: 2
+      ticks: 638490562553255148
+    buildGUID: 03fd26be262e47f79055deb3adea12c1
+    platformName: Android
+    platformGroupName: Android
+    subtarget: 6
+    options: 524297
+    assetBundleOptions: 0
+    outputPath: D:/Builds/testAviGames/testAviGames.apk
+    crc: 0
+    totalSize: 905049898
+    totalTimeTicks: 82947780
+    totalErrors: 1
+    totalWarnings: 1
+    buildType: 1
+    buildResult: 1
+  m_Files:
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/data.unity3d
+    role: unity3d
+    id: 0
+    totalSize: 4158083
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/RuntimeInitializeOnLoads.json
+    role: json
+    id: 1
+    totalSize: 4226
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/ScriptingAssemblies.json
+    role: json
+    id: 2
+    totalSize: 4736
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource
+    role: resource
+    id: 3
+    totalSize: 7476960
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/boot.config
+    role: config
+    id: 4
+    totalSize: 341
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/UnityServicesProjectConfiguration.json
+    role: json
+    id: 5
+    totalSize: 1093
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/catalog.json
+    role: json
+    id: 6
+    totalSize: 9492
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/settings.json
+    role: json
+    id: 7
+    totalSize: 1593
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/AddressablesLink/link.xml
+    role: xml
+    id: 8
+    totalSize: 2109
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/aa/Android/levels_assets_all_dafb0b9df852ab26092720d96c69e02c.bundle
+    role: bundle
+    id: 9
+    totalSize: 489368
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/common.aar
+    role: aar
+    id: 10
+    totalSize: 12536
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/appodeal.androidlib/AndroidManifest.xml
+    role: xml
+    id: 11
+    totalSize: 766
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/appodeal.androidlib/project.properties
+    role: properties
+    id: 12
+    totalSize: 41
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/appodeal.androidlib/res/xml/network_security_config.xml
+    role: xml
+    id: 13
+    totalSize: 437
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/billing-5.2.1.aar
+    role: aar
+    id: 14
+    totalSize: 332281
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/lib_burst_generated.so
+    role: so
+    id: 15
+    totalSize: 667208
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/lib_burst_generated.so
+    role: so
+    id: 16
+    totalSize: 607096
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Metadata/global-metadata.dat
+    role: dat
+    id: 17
+    totalSize: 10191208
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/mscorlib.dll-resources.dat
+    role: dat
+    id: 18
+    totalSize: 337563
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/Newtonsoft.Json.dll-resources.dat
+    role: dat
+    id: 19
+    totalSize: 900
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/System.Data.dll-resources.dat
+    role: dat
+    id: 20
+    totalSize: 93718
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/Managed/Resources/System.Drawing.dll-resources.dat
+    role: dat
+    id: 21
+    totalSize: 25453
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libil2cpp.so
+    role: so
+    id: 22
+    totalSize: 50366092
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libil2cpp.so
+    role: so
+    id: 23
+    totalSize: 59925504
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/analytics.json
+    role: json
+    id: 24
+    totalSize: 1270
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealAdRevenueDelegate.h
+    role: h
+    id: 25
+    totalSize: 288
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealBannerDelegate.h
+    role: h
+    id: 26
+    totalSize: 771
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealBannerViewDelegate.h
+    role: h
+    id: 27
+    totalSize: 803
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealIAPValidationDelegate.h
+    role: h
+    id: 28
+    totalSize: 150
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealInitializationDelegate.h
+    role: h
+    id: 29
+    totalSize: 314
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealInterstitialDelegate.h
+    role: h
+    id: 30
+    totalSize: 951
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealMrecViewDelegate.h
+    role: h
+    id: 31
+    totalSize: 773
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealRewardedVideoDelegate.h
+    role: h
+    id: 32
+    totalSize: 1247
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Api.cpp
+    role: cpp
+    id: 33
+    totalSize: 122614
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Api_CodeGen.c
+    role: c
+    id: 34
+    totalSize: 18956
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Common.cpp
+    role: cpp
+    id: 35
+    totalSize: 598186
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Common_CodeGen.c
+    role: c
+    id: 36
+    totalSize: 51942
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Platforms.Android.cpp
+    role: cpp
+    id: 37
+    totalSize: 578757
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Platforms.Android_CodeGen.c
+    role: c
+    id: 38
+    totalSize: 40306
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Platforms.cpp
+    role: cpp
+    id: 39
+    totalSize: 21566
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealStack.Monetization.Platforms_CodeGen.c
+    role: c
+    id: 40
+    totalSize: 1698
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealUnityBannerView.h
+    role: h
+    id: 41
+    totalSize: 652
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/AppodealUnityMrecView.h
+    role: h
+    id: 42
+    totalSize: 511
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass.cpp
+    role: cpp
+    id: 43
+    totalSize: 956843
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp-firstpass_CodeGen.c
+    role: c
+    id: 44
+    totalSize: 65299
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp.cpp
+    role: cpp
+    id: 45
+    totalSize: 387669
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Assembly-CSharp_CodeGen.c
+    role: c
+    id: 46
+    totalSize: 26049
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween.cpp
+    role: cpp
+    id: 47
+    totalSize: 1574136
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween_CodeGen.c
+    role: c
+    id: 48
+    totalSize: 232448
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween__1.cpp
+    role: cpp
+    id: 49
+    totalSize: 1137959
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/DOTween__2.cpp
+    role: cpp
+    id: 50
+    totalSize: 575189
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods.cpp
+    role: cpp
+    id: 51
+    totalSize: 2136264
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__1.cpp
+    role: cpp
+    id: 52
+    totalSize: 2161637
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__10.cpp
+    role: cpp
+    id: 53
+    totalSize: 829981
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__11.cpp
+    role: cpp
+    id: 54
+    totalSize: 1545048
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__12.cpp
+    role: cpp
+    id: 55
+    totalSize: 1513917
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__13.cpp
+    role: cpp
+    id: 56
+    totalSize: 1851207
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__14.cpp
+    role: cpp
+    id: 57
+    totalSize: 1153036
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__15.cpp
+    role: cpp
+    id: 58
+    totalSize: 2726899
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__16.cpp
+    role: cpp
+    id: 59
+    totalSize: 1834592
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__17.cpp
+    role: cpp
+    id: 60
+    totalSize: 1959661
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__18.cpp
+    role: cpp
+    id: 61
+    totalSize: 1179374
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__19.cpp
+    role: cpp
+    id: 62
+    totalSize: 1658195
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__2.cpp
+    role: cpp
+    id: 63
+    totalSize: 1044041
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__20.cpp
+    role: cpp
+    id: 64
+    totalSize: 1487940
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__21.cpp
+    role: cpp
+    id: 65
+    totalSize: 1609639
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__22.cpp
+    role: cpp
+    id: 66
+    totalSize: 1666492
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__23.cpp
+    role: cpp
+    id: 67
+    totalSize: 1170150
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__24.cpp
+    role: cpp
+    id: 68
+    totalSize: 1574385
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__25.cpp
+    role: cpp
+    id: 69
+    totalSize: 1897238
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__26.cpp
+    role: cpp
+    id: 70
+    totalSize: 738668
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__3.cpp
+    role: cpp
+    id: 71
+    totalSize: 1810712
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__4.cpp
+    role: cpp
+    id: 72
+    totalSize: 2325545
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__5.cpp
+    role: cpp
+    id: 73
+    totalSize: 893046
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__6.cpp
+    role: cpp
+    id: 74
+    totalSize: 1862941
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__7.cpp
+    role: cpp
+    id: 75
+    totalSize: 3088372
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__8.cpp
+    role: cpp
+    id: 76
+    totalSize: 1317848
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/GenericMethods__9.cpp
+    role: cpp
+    id: 77
+    totalSize: 735816
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics.cpp
+    role: cpp
+    id: 78
+    totalSize: 2134663
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__1.cpp
+    role: cpp
+    id: 79
+    totalSize: 1129159
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__10.cpp
+    role: cpp
+    id: 80
+    totalSize: 1458346
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__100.cpp
+    role: cpp
+    id: 81
+    totalSize: 1372160
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__101.cpp
+    role: cpp
+    id: 82
+    totalSize: 823850
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__11.cpp
+    role: cpp
+    id: 83
+    totalSize: 1301689
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__12.cpp
+    role: cpp
+    id: 84
+    totalSize: 1546282
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__13.cpp
+    role: cpp
+    id: 85
+    totalSize: 1484733
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__14.cpp
+    role: cpp
+    id: 86
+    totalSize: 1382091
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__15.cpp
+    role: cpp
+    id: 87
+    totalSize: 1586957
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__16.cpp
+    role: cpp
+    id: 88
+    totalSize: 1685034
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__17.cpp
+    role: cpp
+    id: 89
+    totalSize: 1369212
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__18.cpp
+    role: cpp
+    id: 90
+    totalSize: 967279
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__19.cpp
+    role: cpp
+    id: 91
+    totalSize: 934718
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__2.cpp
+    role: cpp
+    id: 92
+    totalSize: 1841957
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__20.cpp
+    role: cpp
+    id: 93
+    totalSize: 915926
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__21.cpp
+    role: cpp
+    id: 94
+    totalSize: 944511
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__22.cpp
+    role: cpp
+    id: 95
+    totalSize: 961805
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__23.cpp
+    role: cpp
+    id: 96
+    totalSize: 969366
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__24.cpp
+    role: cpp
+    id: 97
+    totalSize: 985796
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__25.cpp
+    role: cpp
+    id: 98
+    totalSize: 957589
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__26.cpp
+    role: cpp
+    id: 99
+    totalSize: 1022201
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__27.cpp
+    role: cpp
+    id: 100
+    totalSize: 1319410
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__28.cpp
+    role: cpp
+    id: 101
+    totalSize: 3623705
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__29.cpp
+    role: cpp
+    id: 102
+    totalSize: 2167955
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__3.cpp
+    role: cpp
+    id: 103
+    totalSize: 1875090
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__30.cpp
+    role: cpp
+    id: 104
+    totalSize: 2086946
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__31.cpp
+    role: cpp
+    id: 105
+    totalSize: 2188975
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__32.cpp
+    role: cpp
+    id: 106
+    totalSize: 1565808
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__33.cpp
+    role: cpp
+    id: 107
+    totalSize: 1432757
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__34.cpp
+    role: cpp
+    id: 108
+    totalSize: 1460338
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__35.cpp
+    role: cpp
+    id: 109
+    totalSize: 1295078
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__36.cpp
+    role: cpp
+    id: 110
+    totalSize: 1257007
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__37.cpp
+    role: cpp
+    id: 111
+    totalSize: 1269807
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__38.cpp
+    role: cpp
+    id: 112
+    totalSize: 1299223
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__39.cpp
+    role: cpp
+    id: 113
+    totalSize: 1707254
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__4.cpp
+    role: cpp
+    id: 114
+    totalSize: 1682002
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__40.cpp
+    role: cpp
+    id: 115
+    totalSize: 1908129
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__41.cpp
+    role: cpp
+    id: 116
+    totalSize: 1736346
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__42.cpp
+    role: cpp
+    id: 117
+    totalSize: 1685422
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__43.cpp
+    role: cpp
+    id: 118
+    totalSize: 1870068
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__44.cpp
+    role: cpp
+    id: 119
+    totalSize: 1210718
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__45.cpp
+    role: cpp
+    id: 120
+    totalSize: 2209330
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__46.cpp
+    role: cpp
+    id: 121
+    totalSize: 2219457
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__47.cpp
+    role: cpp
+    id: 122
+    totalSize: 2271819
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__48.cpp
+    role: cpp
+    id: 123
+    totalSize: 2284090
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__49.cpp
+    role: cpp
+    id: 124
+    totalSize: 2294879
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__5.cpp
+    role: cpp
+    id: 125
+    totalSize: 1686311
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__50.cpp
+    role: cpp
+    id: 126
+    totalSize: 1420234
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__51.cpp
+    role: cpp
+    id: 127
+    totalSize: 1953290
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__52.cpp
+    role: cpp
+    id: 128
+    totalSize: 1415723
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__53.cpp
+    role: cpp
+    id: 129
+    totalSize: 1048669
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__54.cpp
+    role: cpp
+    id: 130
+    totalSize: 1056386
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__55.cpp
+    role: cpp
+    id: 131
+    totalSize: 1034520
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__56.cpp
+    role: cpp
+    id: 132
+    totalSize: 1043670
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__57.cpp
+    role: cpp
+    id: 133
+    totalSize: 1015313
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__58.cpp
+    role: cpp
+    id: 134
+    totalSize: 1064723
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__59.cpp
+    role: cpp
+    id: 135
+    totalSize: 1066245
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__6.cpp
+    role: cpp
+    id: 136
+    totalSize: 1691127
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__60.cpp
+    role: cpp
+    id: 137
+    totalSize: 1040463
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__61.cpp
+    role: cpp
+    id: 138
+    totalSize: 1066619
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__62.cpp
+    role: cpp
+    id: 139
+    totalSize: 1024665
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__63.cpp
+    role: cpp
+    id: 140
+    totalSize: 1054703
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__64.cpp
+    role: cpp
+    id: 141
+    totalSize: 1066035
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__65.cpp
+    role: cpp
+    id: 142
+    totalSize: 1089200
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__66.cpp
+    role: cpp
+    id: 143
+    totalSize: 1066490
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__67.cpp
+    role: cpp
+    id: 144
+    totalSize: 1065693
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__68.cpp
+    role: cpp
+    id: 145
+    totalSize: 1377304
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__69.cpp
+    role: cpp
+    id: 146
+    totalSize: 1713968
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__7.cpp
+    role: cpp
+    id: 147
+    totalSize: 1717962
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__70.cpp
+    role: cpp
+    id: 148
+    totalSize: 1908866
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__71.cpp
+    role: cpp
+    id: 149
+    totalSize: 1907245
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__72.cpp
+    role: cpp
+    id: 150
+    totalSize: 2167255
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__73.cpp
+    role: cpp
+    id: 151
+    totalSize: 2235006
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__74.cpp
+    role: cpp
+    id: 152
+    totalSize: 1127068
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__75.cpp
+    role: cpp
+    id: 153
+    totalSize: 968777
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__76.cpp
+    role: cpp
+    id: 154
+    totalSize: 1488589
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__77.cpp
+    role: cpp
+    id: 155
+    totalSize: 1558174
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__78.cpp
+    role: cpp
+    id: 156
+    totalSize: 1120758
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__79.cpp
+    role: cpp
+    id: 157
+    totalSize: 2379999
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__8.cpp
+    role: cpp
+    id: 158
+    totalSize: 1752258
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__80.cpp
+    role: cpp
+    id: 159
+    totalSize: 1278926
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__81.cpp
+    role: cpp
+    id: 160
+    totalSize: 1288326
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__82.cpp
+    role: cpp
+    id: 161
+    totalSize: 1491634
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__83.cpp
+    role: cpp
+    id: 162
+    totalSize: 1403719
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__84.cpp
+    role: cpp
+    id: 163
+    totalSize: 1186577
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__85.cpp
+    role: cpp
+    id: 164
+    totalSize: 1753489
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__86.cpp
+    role: cpp
+    id: 165
+    totalSize: 1751782
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__87.cpp
+    role: cpp
+    id: 166
+    totalSize: 1222215
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__88.cpp
+    role: cpp
+    id: 167
+    totalSize: 1477216
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__89.cpp
+    role: cpp
+    id: 168
+    totalSize: 1604376
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__9.cpp
+    role: cpp
+    id: 169
+    totalSize: 1629390
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__90.cpp
+    role: cpp
+    id: 170
+    totalSize: 1370431
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__91.cpp
+    role: cpp
+    id: 171
+    totalSize: 1583378
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__92.cpp
+    role: cpp
+    id: 172
+    totalSize: 1778645
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__93.cpp
+    role: cpp
+    id: 173
+    totalSize: 1357101
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__94.cpp
+    role: cpp
+    id: 174
+    totalSize: 1584134
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__95.cpp
+    role: cpp
+    id: 175
+    totalSize: 1496931
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__96.cpp
+    role: cpp
+    id: 176
+    totalSize: 1100801
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__97.cpp
+    role: cpp
+    id: 177
+    totalSize: 1094955
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__98.cpp
+    role: cpp
+    id: 178
+    totalSize: 1177758
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Generics__99.cpp
+    role: cpp
+    id: 179
+    totalSize: 1151063
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues.cpp
+    role: cpp
+    id: 180
+    totalSize: 2059754
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues1.cpp
+    role: cpp
+    id: 181
+    totalSize: 2413617
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues2.cpp
+    role: cpp
+    id: 182
+    totalSize: 1808430
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateFieldValues3.cpp
+    role: cpp
+    id: 183
+    totalSize: 1518368
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues.cpp
+    role: cpp
+    id: 184
+    totalSize: 3261846
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues1.cpp
+    role: cpp
+    id: 185
+    totalSize: 2832854
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCalculateTypeValues2.cpp
+    role: cpp
+    id: 186
+    totalSize: 398125
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCFieldValuesTable.cpp
+    role: cpp
+    id: 187
+    totalSize: 658713
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCCTypeValuesTable.cpp
+    role: cpp
+    id: 188
+    totalSize: 1074284
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppCodeRegistration.cpp
+    role: cpp
+    id: 189
+    totalSize: 13191
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericAdjustorThunkTable.c
+    role: c
+    id: 190
+    totalSize: 3270959
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericClassTable.c
+    role: c
+    id: 191
+    totalSize: 1891130
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericInstDefinitions.c
+    role: c
+    id: 192
+    totalSize: 7524300
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodDefinitions.c
+    role: c
+    id: 193
+    totalSize: 1933252
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodPointerTable.c
+    role: c
+    id: 194
+    totalSize: 18168781
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppGenericMethodTable.c
+    role: c
+    id: 195
+    totalSize: 2086564
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInteropDataTable.cpp
+    role: cpp
+    id: 196
+    totalSize: 519209
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppInvokerTable.cpp
+    role: cpp
+    id: 197
+    totalSize: 14951408
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataRegistration.c
+    role: c
+    id: 198
+    totalSize: 992
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppMetadataUsage.c
+    role: c
+    id: 199
+    totalSize: 5724798
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppReversePInvokeWrapperTable.cpp
+    role: cpp
+    id: 200
+    totalSize: 8501
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppRgctxTable.c
+    role: c
+    id: 201
+    totalSize: 1987019
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppTypeDefinitions.c
+    role: c
+    id: 202
+    totalSize: 16505295
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Il2CppUnresolvedIndirectCallStubs.cpp
+    role: cpp
+    id: 203
+    totalSize: 1678070
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security.cpp
+    role: cpp
+    id: 204
+    totalSize: 1109303
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security_CodeGen.c
+    role: c
+    id: 205
+    totalSize: 83639
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Mono.Security__1.cpp
+    role: cpp
+    id: 206
+    totalSize: 755319
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib.cpp
+    role: cpp
+    id: 207
+    totalSize: 1068572
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib_CodeGen.c
+    role: c
+    id: 208
+    totalSize: 2533925
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__1.cpp
+    role: cpp
+    id: 209
+    totalSize: 1133256
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__10.cpp
+    role: cpp
+    id: 210
+    totalSize: 974119
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__11.cpp
+    role: cpp
+    id: 211
+    totalSize: 1115160
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__12.cpp
+    role: cpp
+    id: 212
+    totalSize: 886137
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__13.cpp
+    role: cpp
+    id: 213
+    totalSize: 839873
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__14.cpp
+    role: cpp
+    id: 214
+    totalSize: 1335702
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__15.cpp
+    role: cpp
+    id: 215
+    totalSize: 1583850
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__16.cpp
+    role: cpp
+    id: 216
+    totalSize: 1255744
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__17.cpp
+    role: cpp
+    id: 217
+    totalSize: 1441126
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__18.cpp
+    role: cpp
+    id: 218
+    totalSize: 1682125
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__19.cpp
+    role: cpp
+    id: 219
+    totalSize: 1565021
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__2.cpp
+    role: cpp
+    id: 220
+    totalSize: 1540995
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__20.cpp
+    role: cpp
+    id: 221
+    totalSize: 1327189
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__21.cpp
+    role: cpp
+    id: 222
+    totalSize: 1422880
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__22.cpp
+    role: cpp
+    id: 223
+    totalSize: 1021499
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__23.cpp
+    role: cpp
+    id: 224
+    totalSize: 503386
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__3.cpp
+    role: cpp
+    id: 225
+    totalSize: 1358814
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__4.cpp
+    role: cpp
+    id: 226
+    totalSize: 1351925
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__5.cpp
+    role: cpp
+    id: 227
+    totalSize: 1605793
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__6.cpp
+    role: cpp
+    id: 228
+    totalSize: 1470111
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__7.cpp
+    role: cpp
+    id: 229
+    totalSize: 1246910
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__8.cpp
+    role: cpp
+    id: 230
+    totalSize: 1430533
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/mscorlib__9.cpp
+    role: cpp
+    id: 231
+    totalSize: 1490439
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json.cpp
+    role: cpp
+    id: 232
+    totalSize: 1635525
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json_CodeGen.c
+    role: c
+    id: 233
+    totalSize: 885573
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__1.cpp
+    role: cpp
+    id: 234
+    totalSize: 1526565
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__2.cpp
+    role: cpp
+    id: 235
+    totalSize: 1381577
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__3.cpp
+    role: cpp
+    id: 236
+    totalSize: 1522332
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__4.cpp
+    role: cpp
+    id: 237
+    totalSize: 1949171
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__5.cpp
+    role: cpp
+    id: 238
+    totalSize: 1628109
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__6.cpp
+    role: cpp
+    id: 239
+    totalSize: 1575810
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__7.cpp
+    role: cpp
+    id: 240
+    totalSize: 1275843
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Newtonsoft.Json__8.cpp
+    role: cpp
+    id: 241
+    totalSize: 909990
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Purchasing.Common.cpp
+    role: cpp
+    id: 242
+    totalSize: 170359
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Purchasing.Common_CodeGen.c
+    role: c
+    id: 243
+    totalSize: 9952
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration.cpp
+    role: cpp
+    id: 244
+    totalSize: 25042
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Configuration_CodeGen.c
+    role: c
+    id: 245
+    totalSize: 3745
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core.cpp
+    role: cpp
+    id: 246
+    totalSize: 1594607
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core_CodeGen.c
+    role: c
+    id: 247
+    totalSize: 903038
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__1.cpp
+    role: cpp
+    id: 248
+    totalSize: 1531647
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__2.cpp
+    role: cpp
+    id: 249
+    totalSize: 2151105
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__3.cpp
+    role: cpp
+    id: 250
+    totalSize: 1653896
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Core__4.cpp
+    role: cpp
+    id: 251
+    totalSize: 558505
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.cpp
+    role: cpp
+    id: 252
+    totalSize: 1708183
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data.cpp
+    role: cpp
+    id: 253
+    totalSize: 1218853
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data_CodeGen.c
+    role: c
+    id: 254
+    totalSize: 620492
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__1.cpp
+    role: cpp
+    id: 255
+    totalSize: 1450572
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__2.cpp
+    role: cpp
+    id: 256
+    totalSize: 1391339
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__3.cpp
+    role: cpp
+    id: 257
+    totalSize: 1112699
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__4.cpp
+    role: cpp
+    id: 258
+    totalSize: 1223328
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__5.cpp
+    role: cpp
+    id: 259
+    totalSize: 1157618
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__6.cpp
+    role: cpp
+    id: 260
+    totalSize: 1102723
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__7.cpp
+    role: cpp
+    id: 261
+    totalSize: 1407513
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__8.cpp
+    role: cpp
+    id: 262
+    totalSize: 1227892
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Data__9.cpp
+    role: cpp
+    id: 263
+    totalSize: 805273
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Drawing.cpp
+    role: cpp
+    id: 264
+    totalSize: 237694
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Drawing_CodeGen.c
+    role: c
+    id: 265
+    totalSize: 20304
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Numerics.cpp
+    role: cpp
+    id: 266
+    totalSize: 757286
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Numerics_CodeGen.c
+    role: c
+    id: 267
+    totalSize: 31221
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Runtime.Serialization.cpp
+    role: cpp
+    id: 268
+    totalSize: 6077
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Runtime.Serialization_CodeGen.c
+    role: c
+    id: 269
+    totalSize: 1997
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.cpp
+    role: cpp
+    id: 270
+    totalSize: 962143
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.Linq.cpp
+    role: cpp
+    id: 271
+    totalSize: 559364
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml.Linq_CodeGen.c
+    role: c
+    id: 272
+    totalSize: 45542
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml_CodeGen.c
+    role: c
+    id: 273
+    totalSize: 1181508
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__1.cpp
+    role: cpp
+    id: 274
+    totalSize: 1152214
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__10.cpp
+    role: cpp
+    id: 275
+    totalSize: 1373348
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__11.cpp
+    role: cpp
+    id: 276
+    totalSize: 1434904
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__12.cpp
+    role: cpp
+    id: 277
+    totalSize: 1415517
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__13.cpp
+    role: cpp
+    id: 278
+    totalSize: 1367245
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__14.cpp
+    role: cpp
+    id: 279
+    totalSize: 1424998
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__15.cpp
+    role: cpp
+    id: 280
+    totalSize: 1770842
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__16.cpp
+    role: cpp
+    id: 281
+    totalSize: 1029824
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__2.cpp
+    role: cpp
+    id: 282
+    totalSize: 1019470
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__3.cpp
+    role: cpp
+    id: 283
+    totalSize: 910922
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__4.cpp
+    role: cpp
+    id: 284
+    totalSize: 1294258
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__5.cpp
+    role: cpp
+    id: 285
+    totalSize: 1139278
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__6.cpp
+    role: cpp
+    id: 286
+    totalSize: 1310998
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__7.cpp
+    role: cpp
+    id: 287
+    totalSize: 1351395
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__8.cpp
+    role: cpp
+    id: 288
+    totalSize: 1366911
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System.Xml__9.cpp
+    role: cpp
+    id: 289
+    totalSize: 1538109
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System_CodeGen.c
+    role: c
+    id: 290
+    totalSize: 867668
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__1.cpp
+    role: cpp
+    id: 291
+    totalSize: 804754
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__10.cpp
+    role: cpp
+    id: 292
+    totalSize: 1363604
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__11.cpp
+    role: cpp
+    id: 293
+    totalSize: 253064
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__2.cpp
+    role: cpp
+    id: 294
+    totalSize: 1269913
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__3.cpp
+    role: cpp
+    id: 295
+    totalSize: 821435
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__4.cpp
+    role: cpp
+    id: 296
+    totalSize: 1277755
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__5.cpp
+    role: cpp
+    id: 297
+    totalSize: 1368288
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__6.cpp
+    role: cpp
+    id: 298
+    totalSize: 1565107
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__7.cpp
+    role: cpp
+    id: 299
+    totalSize: 1565374
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__8.cpp
+    role: cpp
+    id: 300
+    totalSize: 1693419
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/System__9.cpp
+    role: cpp
+    id: 301
+    totalSize: 1435578
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.2D.Animation.Runtime.cpp
+    role: cpp
+    id: 302
+    totalSize: 1375299
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.2D.Animation.Runtime_CodeGen.c
+    role: c
+    id: 303
+    totalSize: 76720
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Addressables.cpp
+    role: cpp
+    id: 304
+    totalSize: 1699230
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Addressables_CodeGen.c
+    role: c
+    id: 305
+    totalSize: 161988
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Addressables__1.cpp
+    role: cpp
+    id: 306
+    totalSize: 454973
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.cpp
+    role: cpp
+    id: 307
+    totalSize: 2999961
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.Unsafe.cpp
+    role: cpp
+    id: 308
+    totalSize: 6234
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst.Unsafe_CodeGen.c
+    role: c
+    id: 309
+    totalSize: 9470
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst_CodeGen.c
+    role: c
+    id: 310
+    totalSize: 576831
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__1.cpp
+    role: cpp
+    id: 311
+    totalSize: 898444
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__2.cpp
+    role: cpp
+    id: 312
+    totalSize: 781077
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Burst__3.cpp
+    role: cpp
+    id: 313
+    totalSize: 79778
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections.cpp
+    role: cpp
+    id: 314
+    totalSize: 1939375
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections.LowLevel.ILSupport.cpp
+    role: cpp
+    id: 315
+    totalSize: 3160
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections.LowLevel.ILSupport_CodeGen.c
+    role: c
+    id: 316
+    totalSize: 1496
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections_CodeGen.c
+    role: c
+    id: 317
+    totalSize: 1581074
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections__1.cpp
+    role: cpp
+    id: 318
+    totalSize: 1636118
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Collections__2.cpp
+    role: cpp
+    id: 319
+    totalSize: 231001
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InternalAPIEngineBridge.001.cpp
+    role: cpp
+    id: 320
+    totalSize: 29942
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.InternalAPIEngineBridge.001_CodeGen.c
+    role: c
+    id: 321
+    totalSize: 3002
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics.cpp
+    role: cpp
+    id: 322
+    totalSize: 4545784
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics_CodeGen.c
+    role: c
+    id: 323
+    totalSize: 2173985
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__1.cpp
+    role: cpp
+    id: 324
+    totalSize: 1836220
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__10.cpp
+    role: cpp
+    id: 325
+    totalSize: 1838094
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__11.cpp
+    role: cpp
+    id: 326
+    totalSize: 1524139
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__12.cpp
+    role: cpp
+    id: 327
+    totalSize: 813871
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__2.cpp
+    role: cpp
+    id: 328
+    totalSize: 1650034
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__3.cpp
+    role: cpp
+    id: 329
+    totalSize: 1691205
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__4.cpp
+    role: cpp
+    id: 330
+    totalSize: 1547429
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__5.cpp
+    role: cpp
+    id: 331
+    totalSize: 1593548
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__6.cpp
+    role: cpp
+    id: 332
+    totalSize: 2363078
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__7.cpp
+    role: cpp
+    id: 333
+    totalSize: 1516623
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__8.cpp
+    role: cpp
+    id: 334
+    totalSize: 1747595
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Mathematics__9.cpp
+    role: cpp
+    id: 335
+    totalSize: 1224297
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary.cpp
+    role: cpp
+    id: 336
+    totalSize: 22644
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipeline.Universal.ShaderLibrary_CodeGen.c
+    role: c
+    id: 337
+    totalSize: 1058
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime.cpp
+    role: cpp
+    id: 338
+    totalSize: 1753054
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime_CodeGen.c
+    role: c
+    id: 339
+    totalSize: 669723
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__1.cpp
+    role: cpp
+    id: 340
+    totalSize: 1426251
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__2.cpp
+    role: cpp
+    id: 341
+    totalSize: 1841063
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__3.cpp
+    role: cpp
+    id: 342
+    totalSize: 1376775
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__4.cpp
+    role: cpp
+    id: 343
+    totalSize: 1119480
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__5.cpp
+    role: cpp
+    id: 344
+    totalSize: 1349980
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Core.Runtime__6.cpp
+    role: cpp
+    id: 345
+    totalSize: 633429
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime.cpp
+    role: cpp
+    id: 346
+    totalSize: 1342134
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime_CodeGen.c
+    role: c
+    id: 347
+    totalSize: 630723
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__1.cpp
+    role: cpp
+    id: 348
+    totalSize: 1168750
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__10.cpp
+    role: cpp
+    id: 349
+    totalSize: 247352
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__2.cpp
+    role: cpp
+    id: 350
+    totalSize: 1593582
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__3.cpp
+    role: cpp
+    id: 351
+    totalSize: 2085278
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__4.cpp
+    role: cpp
+    id: 352
+    totalSize: 1408846
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__5.cpp
+    role: cpp
+    id: 353
+    totalSize: 1485968
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__6.cpp
+    role: cpp
+    id: 354
+    totalSize: 1331047
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__7.cpp
+    role: cpp
+    id: 355
+    totalSize: 1551058
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__8.cpp
+    role: cpp
+    id: 356
+    totalSize: 1193596
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.RenderPipelines.Universal.Runtime__9.cpp
+    role: cpp
+    id: 357
+    totalSize: 1376957
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager.cpp
+    role: cpp
+    id: 358
+    totalSize: 1523778
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager_CodeGen.c
+    role: c
+    id: 359
+    totalSize: 231648
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.ResourceManager__1.cpp
+    role: cpp
+    id: 360
+    totalSize: 326530
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Configuration.cpp
+    role: cpp
+    id: 361
+    totalSize: 121921
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Configuration_CodeGen.c
+    role: c
+    id: 362
+    totalSize: 7004
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.cpp
+    role: cpp
+    id: 363
+    totalSize: 129250
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Device.cpp
+    role: cpp
+    id: 364
+    totalSize: 54208
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Device_CodeGen.c
+    role: c
+    id: 365
+    totalSize: 4461
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Environments.Internal.cpp
+    role: cpp
+    id: 366
+    totalSize: 2804
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Environments.Internal_CodeGen.c
+    role: c
+    id: 367
+    totalSize: 1091
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Internal.cpp
+    role: cpp
+    id: 368
+    totalSize: 792194
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Internal_CodeGen.c
+    role: c
+    id: 369
+    totalSize: 103836
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Registration.cpp
+    role: cpp
+    id: 370
+    totalSize: 272613
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Registration_CodeGen.c
+    role: c
+    id: 371
+    totalSize: 12950
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Scheduler.cpp
+    role: cpp
+    id: 372
+    totalSize: 90494
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Scheduler_CodeGen.c
+    role: c
+    id: 373
+    totalSize: 10429
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Telemetry.cpp
+    role: cpp
+    id: 374
+    totalSize: 313583
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Telemetry_CodeGen.c
+    role: c
+    id: 375
+    totalSize: 33802
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Threading.cpp
+    role: cpp
+    id: 376
+    totalSize: 24483
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core.Threading_CodeGen.c
+    role: c
+    id: 377
+    totalSize: 11026
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.Services.Core_CodeGen.c
+    role: c
+    id: 378
+    totalSize: 10298
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro.cpp
+    role: cpp
+    id: 379
+    totalSize: 814487
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro_CodeGen.c
+    role: c
+    id: 380
+    totalSize: 330198
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__1.cpp
+    role: cpp
+    id: 381
+    totalSize: 828662
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__2.cpp
+    role: cpp
+    id: 382
+    totalSize: 1137967
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__3.cpp
+    role: cpp
+    id: 383
+    totalSize: 1316704
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__4.cpp
+    role: cpp
+    id: 384
+    totalSize: 864088
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__5.cpp
+    role: cpp
+    id: 385
+    totalSize: 1281423
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__6.cpp
+    role: cpp
+    id: 386
+    totalSize: 1580579
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Unity.TextMeshPro__7.cpp
+    role: cpp
+    id: 387
+    totalSize: 631050
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule.cpp
+    role: cpp
+    id: 388
+    totalSize: 897861
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AndroidJNIModule_CodeGen.c
+    role: c
+    id: 389
+    totalSize: 109605
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule.cpp
+    role: cpp
+    id: 390
+    totalSize: 161519
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AnimationModule_CodeGen.c
+    role: c
+    id: 391
+    totalSize: 20039
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AssetBundleModule.cpp
+    role: cpp
+    id: 392
+    totalSize: 60756
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AssetBundleModule_CodeGen.c
+    role: c
+    id: 393
+    totalSize: 4863
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule.cpp
+    role: cpp
+    id: 394
+    totalSize: 78534
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.AudioModule_CodeGen.c
+    role: c
+    id: 395
+    totalSize: 8989
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule.cpp
+    role: cpp
+    id: 396
+    totalSize: 2065409
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule_CodeGen.c
+    role: c
+    id: 397
+    totalSize: 956659
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__1.cpp
+    role: cpp
+    id: 398
+    totalSize: 1210592
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__2.cpp
+    role: cpp
+    id: 399
+    totalSize: 1988544
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__3.cpp
+    role: cpp
+    id: 400
+    totalSize: 1590369
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.CoreModule__4.cpp
+    role: cpp
+    id: 401
+    totalSize: 155502
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.cpp
+    role: cpp
+    id: 402
+    totalSize: 667
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GridModule.cpp
+    role: cpp
+    id: 403
+    totalSize: 1918
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.GridModule_CodeGen.c
+    role: c
+    id: 404
+    totalSize: 429
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule.cpp
+    role: cpp
+    id: 405
+    totalSize: 1059252
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule_CodeGen.c
+    role: c
+    id: 406
+    totalSize: 103446
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.IMGUIModule__1.cpp
+    role: cpp
+    id: 407
+    totalSize: 410010
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule.cpp
+    role: cpp
+    id: 408
+    totalSize: 158909
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputLegacyModule_CodeGen.c
+    role: c
+    id: 409
+    totalSize: 17109
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule.cpp
+    role: cpp
+    id: 410
+    totalSize: 26821
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.InputModule_CodeGen.c
+    role: c
+    id: 411
+    totalSize: 2016
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule.cpp
+    role: cpp
+    id: 412
+    totalSize: 20535
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.JSONSerializeModule_CodeGen.c
+    role: c
+    id: 413
+    totalSize: 1905
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule.cpp
+    role: cpp
+    id: 414
+    totalSize: 41048
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.ParticleSystemModule_CodeGen.c
+    role: c
+    id: 415
+    totalSize: 5766
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule.cpp
+    role: cpp
+    id: 416
+    totalSize: 123927
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Physics2DModule_CodeGen.c
+    role: c
+    id: 417
+    totalSize: 13548
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule.cpp
+    role: cpp
+    id: 418
+    totalSize: 212358
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PhysicsModule_CodeGen.c
+    role: c
+    id: 419
+    totalSize: 21425
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule.cpp
+    role: cpp
+    id: 420
+    totalSize: 320813
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.PropertiesModule_CodeGen.c
+    role: c
+    id: 421
+    totalSize: 81537
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleCore.cpp
+    role: cpp
+    id: 422
+    totalSize: 16467
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleCore_CodeGen.c
+    role: c
+    id: 423
+    totalSize: 1223
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleMacosStub.cpp
+    role: cpp
+    id: 424
+    totalSize: 44391
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleMacosStub_CodeGen.c
+    role: c
+    id: 425
+    totalSize: 5264
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleStub.cpp
+    role: cpp
+    id: 426
+    totalSize: 44386
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.AppleStub_CodeGen.c
+    role: c
+    id: 427
+    totalSize: 5249
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Codeless.cpp
+    role: cpp
+    id: 428
+    totalSize: 319726
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Codeless_CodeGen.c
+    role: c
+    id: 429
+    totalSize: 19464
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.cpp
+    role: cpp
+    id: 430
+    totalSize: 605220
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Security.cpp
+    role: cpp
+    id: 431
+    totalSize: 836273
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.SecurityCore.cpp
+    role: cpp
+    id: 432
+    totalSize: 39702
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.SecurityCore_CodeGen.c
+    role: c
+    id: 433
+    totalSize: 8910
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Security_CodeGen.c
+    role: c
+    id: 434
+    totalSize: 45369
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Stores.cpp
+    role: cpp
+    id: 435
+    totalSize: 1644657
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Stores_CodeGen.c
+    role: c
+    id: 436
+    totalSize: 226950
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.Stores__1.cpp
+    role: cpp
+    id: 437
+    totalSize: 1456986
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTCore.cpp
+    role: cpp
+    id: 438
+    totalSize: 34142
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTCore_CodeGen.c
+    role: c
+    id: 439
+    totalSize: 4704
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTStub.cpp
+    role: cpp
+    id: 440
+    totalSize: 21049
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing.WinRTStub_CodeGen.c
+    role: c
+    id: 441
+    totalSize: 1307
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.Purchasing_CodeGen.c
+    role: c
+    id: 442
+    totalSize: 57686
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule.cpp
+    role: cpp
+    id: 443
+    totalSize: 86685
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SharedInternalsModule_CodeGen.c
+    role: c
+    id: 444
+    totalSize: 12856
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteMaskModule.cpp
+    role: cpp
+    id: 445
+    totalSize: 2111
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteMaskModule_CodeGen.c
+    role: c
+    id: 446
+    totalSize: 767
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteShapeModule.cpp
+    role: cpp
+    id: 447
+    totalSize: 1925
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SpriteShapeModule_CodeGen.c
+    role: c
+    id: 448
+    totalSize: 450
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule.cpp
+    role: cpp
+    id: 449
+    totalSize: 77403
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.SubsystemsModule_CodeGen.c
+    role: c
+    id: 450
+    totalSize: 12610
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule.cpp
+    role: cpp
+    id: 451
+    totalSize: 291316
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreFontEngineModule_CodeGen.c
+    role: c
+    id: 452
+    totalSize: 48320
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule.cpp
+    role: cpp
+    id: 453
+    totalSize: 1227246
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule_CodeGen.c
+    role: c
+    id: 454
+    totalSize: 94554
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__1.cpp
+    role: cpp
+    id: 455
+    totalSize: 706462
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__2.cpp
+    role: cpp
+    id: 456
+    totalSize: 1100693
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextCoreTextEngineModule__3.cpp
+    role: cpp
+    id: 457
+    totalSize: 768749
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule.cpp
+    role: cpp
+    id: 458
+    totalSize: 123736
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TextRenderingModule_CodeGen.c
+    role: c
+    id: 459
+    totalSize: 8999
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TilemapModule.cpp
+    role: cpp
+    id: 460
+    totalSize: 2513
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.TilemapModule_CodeGen.c
+    role: c
+    id: 461
+    totalSize: 438
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI.cpp
+    role: cpp
+    id: 462
+    totalSize: 1469874
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule.cpp
+    role: cpp
+    id: 463
+    totalSize: 1512804
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule_CodeGen.c
+    role: c
+    id: 464
+    totalSize: 1571947
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__1.cpp
+    role: cpp
+    id: 465
+    totalSize: 1831942
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__10.cpp
+    role: cpp
+    id: 466
+    totalSize: 1562405
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__11.cpp
+    role: cpp
+    id: 467
+    totalSize: 1409142
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__12.cpp
+    role: cpp
+    id: 468
+    totalSize: 1133272
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__13.cpp
+    role: cpp
+    id: 469
+    totalSize: 1018923
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__14.cpp
+    role: cpp
+    id: 470
+    totalSize: 1302349
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__2.cpp
+    role: cpp
+    id: 471
+    totalSize: 1797904
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__3.cpp
+    role: cpp
+    id: 472
+    totalSize: 1561613
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__4.cpp
+    role: cpp
+    id: 473
+    totalSize: 1807956
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__5.cpp
+    role: cpp
+    id: 474
+    totalSize: 1467506
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__6.cpp
+    role: cpp
+    id: 475
+    totalSize: 1462356
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__7.cpp
+    role: cpp
+    id: 476
+    totalSize: 1763317
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__8.cpp
+    role: cpp
+    id: 477
+    totalSize: 1690005
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIElementsModule__9.cpp
+    role: cpp
+    id: 478
+    totalSize: 1852402
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule.cpp
+    role: cpp
+    id: 479
+    totalSize: 253410
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UIModule_CodeGen.c
+    role: c
+    id: 480
+    totalSize: 22306
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI_CodeGen.c
+    role: c
+    id: 481
+    totalSize: 343091
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__1.cpp
+    role: cpp
+    id: 482
+    totalSize: 936134
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__2.cpp
+    role: cpp
+    id: 483
+    totalSize: 1148692
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__3.cpp
+    role: cpp
+    id: 484
+    totalSize: 1581272
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UI__4.cpp
+    role: cpp
+    id: 485
+    totalSize: 295336
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule.cpp
+    role: cpp
+    id: 486
+    totalSize: 109980
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityAnalyticsModule_CodeGen.c
+    role: c
+    id: 487
+    totalSize: 6274
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestAssetBundleModule.cpp
+    role: cpp
+    id: 488
+    totalSize: 40117
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestAssetBundleModule_CodeGen.c
+    role: c
+    id: 489
+    totalSize: 4220
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule.cpp
+    role: cpp
+    id: 490
+    totalSize: 268194
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.UnityWebRequestModule_CodeGen.c
+    role: c
+    id: 491
+    totalSize: 21108
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule.cpp
+    role: cpp
+    id: 492
+    totalSize: 75409
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VFXModule_CodeGen.c
+    role: c
+    id: 493
+    totalSize: 6817
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule.cpp
+    role: cpp
+    id: 494
+    totalSize: 18962
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.VRModule_CodeGen.c
+    role: c
+    id: 495
+    totalSize: 3094
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule.cpp
+    role: cpp
+    id: 496
+    totalSize: 232211
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine.XRModule_CodeGen.c
+    role: c
+    id: 497
+    totalSize: 25624
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/UnityEngine_CodeGen.c
+    role: c
+    id: 498
+    totalSize: 396
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject-usage.cpp
+    role: cpp
+    id: 499
+    totalSize: 198469
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject-usage_CodeGen.c
+    role: c
+    id: 500
+    totalSize: 38233
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject.cpp
+    role: cpp
+    id: 501
+    totalSize: 1746614
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject_CodeGen.c
+    role: c
+    id: 502
+    totalSize: 1556860
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject__1.cpp
+    role: cpp
+    id: 503
+    totalSize: 1715713
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject__2.cpp
+    role: cpp
+    id: 504
+    totalSize: 1913886
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/Zenject__3.cpp
+    role: cpp
+    id: 505
+    totalSize: 58996
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated.cpp
+    role: cpp
+    id: 506
+    totalSize: 3071
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/il2cppOutput/__Generated_CodeGen.c
+    role: c
+    id: 507
+    totalSize: 869
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/analytics.json
+    role: json
+    id: 508
+    totalSize: 2770
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Api.dll
+    role: dll
+    id: 509
+    totalSize: 14336
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Api.pdb
+    role: pdb
+    id: 510
+    totalSize: 20580
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Common.dll
+    role: dll
+    id: 511
+    totalSize: 48640
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Common.pdb
+    role: pdb
+    id: 512
+    totalSize: 26056
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Platforms.Android.dll
+    role: dll
+    id: 513
+    totalSize: 35328
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Platforms.Android.pdb
+    role: pdb
+    id: 514
+    totalSize: 26340
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Platforms.dll
+    role: dll
+    id: 515
+    totalSize: 5120
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/AppodealStack.Monetization.Platforms.pdb
+    role: pdb
+    id: 516
+    totalSize: 15904
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp-firstpass.dll
+    role: dll
+    id: 517
+    totalSize: 48128
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp-firstpass.pdb
+    role: pdb
+    id: 518
+    totalSize: 34560
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.dll
+    role: dll
+    id: 519
+    totalSize: 24064
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Assembly-CSharp.pdb
+    role: pdb
+    id: 520
+    totalSize: 25868
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/DOTween.dll
+    role: dll
+    id: 521
+    totalSize: 175104
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/DOTween.dll.mdb
+    role: mdb
+    id: 522
+    totalSize: 120212
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll
+    role: dll
+    id: 523
+    totalSize: 116224
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll
+    role: dll
+    id: 524
+    totalSize: 2217984
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.dll
+    role: dll
+    id: 525
+    totalSize: 688128
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Newtonsoft.Json.pdb
+    role: pdb
+    id: 526
+    totalSize: 1666560
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Purchasing.Common.dll
+    role: dll
+    id: 527
+    totalSize: 14848
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Purchasing.Common.pdb
+    role: pdb
+    id: 528
+    totalSize: 20904
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll
+    role: dll
+    id: 529
+    totalSize: 5120
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll
+    role: dll
+    id: 530
+    totalSize: 425472
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Data.dll
+    role: dll
+    id: 531
+    totalSize: 630784
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll
+    role: dll
+    id: 532
+    totalSize: 786944
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Drawing.dll
+    role: dll
+    id: 533
+    totalSize: 47616
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Numerics.dll
+    role: dll
+    id: 534
+    totalSize: 38912
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Runtime.Serialization.dll
+    role: dll
+    id: 535
+    totalSize: 6144
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll
+    role: dll
+    id: 536
+    totalSize: 1054720
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.Linq.dll
+    role: dll
+    id: 537
+    totalSize: 36864
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.2D.Animation.Runtime.dll
+    role: dll
+    id: 538
+    totalSize: 76800
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.2D.Animation.Runtime.pdb
+    role: pdb
+    id: 539
+    totalSize: 49748
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Addressables.dll
+    role: dll
+    id: 540
+    totalSize: 121856
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Addressables.pdb
+    role: pdb
+    id: 541
+    totalSize: 69716
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll
+    role: dll
+    id: 542
+    totalSize: 331776
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb
+    role: pdb
+    id: 543
+    totalSize: 217948
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.Unsafe.dll
+    role: dll
+    id: 544
+    totalSize: 5632
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.dll
+    role: dll
+    id: 545
+    totalSize: 400384
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.LowLevel.ILSupport.dll
+    role: dll
+    id: 546
+    totalSize: 3584
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Collections.pdb
+    role: pdb
+    id: 547
+    totalSize: 254012
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InternalAPIEngineBridge.001.dll
+    role: dll
+    id: 548
+    totalSize: 6144
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InternalAPIEngineBridge.001.pdb
+    role: pdb
+    id: 549
+    totalSize: 16020
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll
+    role: dll
+    id: 550
+    totalSize: 872960
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb
+    role: pdb
+    id: 551
+    totalSize: 506960
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll
+    role: dll
+    id: 552
+    totalSize: 8192
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb
+    role: pdb
+    id: 553
+    totalSize: 15504
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll
+    role: dll
+    id: 554
+    totalSize: 567808
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.pdb
+    role: pdb
+    id: 555
+    totalSize: 279568
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.dll
+    role: dll
+    id: 556
+    totalSize: 840704
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.pdb
+    role: pdb
+    id: 557
+    totalSize: 389444
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.ResourceManager.dll
+    role: dll
+    id: 558
+    totalSize: 143872
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.ResourceManager.pdb
+    role: pdb
+    id: 559
+    totalSize: 81764
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.dll
+    role: dll
+    id: 560
+    totalSize: 10752
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Configuration.pdb
+    role: pdb
+    id: 561
+    totalSize: 17384
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.dll
+    role: dll
+    id: 562
+    totalSize: 6656
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Device.pdb
+    role: pdb
+    id: 563
+    totalSize: 16024
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.dll
+    role: dll
+    id: 564
+    totalSize: 14848
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.dll
+    role: dll
+    id: 565
+    totalSize: 4096
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Environments.Internal.pdb
+    role: pdb
+    id: 566
+    totalSize: 14364
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.dll
+    role: dll
+    id: 567
+    totalSize: 76800
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Internal.pdb
+    role: pdb
+    id: 568
+    totalSize: 43524
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.pdb
+    role: pdb
+    id: 569
+    totalSize: 19152
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.dll
+    role: dll
+    id: 570
+    totalSize: 17408
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Registration.pdb
+    role: pdb
+    id: 571
+    totalSize: 18352
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.dll
+    role: dll
+    id: 572
+    totalSize: 10752
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Scheduler.pdb
+    role: pdb
+    id: 573
+    totalSize: 17596
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.dll
+    role: dll
+    id: 574
+    totalSize: 28160
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Telemetry.pdb
+    role: pdb
+    id: 575
+    totalSize: 24628
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.dll
+    role: dll
+    id: 576
+    totalSize: 5632
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Services.Core.Threading.pdb
+    role: pdb
+    id: 577
+    totalSize: 15216
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll
+    role: dll
+    id: 578
+    totalSize: 435200
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb
+    role: pdb
+    id: 579
+    totalSize: 232300
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll
+    role: dll
+    id: 580
+    totalSize: 77312
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb
+    role: pdb
+    id: 581
+    totalSize: 40440
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll
+    role: dll
+    id: 582
+    totalSize: 22528
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb
+    role: pdb
+    id: 583
+    totalSize: 13684
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AssetBundleModule.dll
+    role: dll
+    id: 584
+    totalSize: 13312
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AssetBundleModule.pdb
+    role: pdb
+    id: 585
+    totalSize: 10232
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll
+    role: dll
+    id: 586
+    totalSize: 15360
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb
+    role: pdb
+    id: 587
+    totalSize: 11092
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll
+    role: dll
+    id: 588
+    totalSize: 595456
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb
+    role: pdb
+    id: 589
+    totalSize: 208484
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll
+    role: dll
+    id: 590
+    totalSize: 68608
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll
+    role: dll
+    id: 591
+    totalSize: 9728
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb
+    role: pdb
+    id: 592
+    totalSize: 9032
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll
+    role: dll
+    id: 593
+    totalSize: 98816
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb
+    role: pdb
+    id: 594
+    totalSize: 48096
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll
+    role: dll
+    id: 595
+    totalSize: 18432
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb
+    role: pdb
+    id: 596
+    totalSize: 12512
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll
+    role: dll
+    id: 597
+    totalSize: 11264
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb
+    role: pdb
+    id: 598
+    totalSize: 9840
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll
+    role: dll
+    id: 599
+    totalSize: 10752
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb
+    role: pdb
+    id: 600
+    totalSize: 9568
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.dll
+    role: dll
+    id: 601
+    totalSize: 13824
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.ParticleSystemModule.pdb
+    role: pdb
+    id: 602
+    totalSize: 10388
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb
+    role: pdb
+    id: 603
+    totalSize: 10980
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll
+    role: dll
+    id: 604
+    totalSize: 17920
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb
+    role: pdb
+    id: 605
+    totalSize: 11168
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll
+    role: dll
+    id: 606
+    totalSize: 24064
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb
+    role: pdb
+    id: 607
+    totalSize: 13696
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll
+    role: dll
+    id: 608
+    totalSize: 44544
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb
+    role: pdb
+    id: 609
+    totalSize: 21716
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleCore.dll
+    role: dll
+    id: 610
+    totalSize: 5632
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleCore.pdb
+    role: pdb
+    id: 611
+    totalSize: 15412
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleMacosStub.dll
+    role: dll
+    id: 612
+    totalSize: 6144
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleMacosStub.pdb
+    role: pdb
+    id: 613
+    totalSize: 16260
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleStub.dll
+    role: dll
+    id: 614
+    totalSize: 6144
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.AppleStub.pdb
+    role: pdb
+    id: 615
+    totalSize: 16248
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Codeless.dll
+    role: dll
+    id: 616
+    totalSize: 24064
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Codeless.pdb
+    role: pdb
+    id: 617
+    totalSize: 22792
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.dll
+    role: dll
+    id: 618
+    totalSize: 59904
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.pdb
+    role: pdb
+    id: 619
+    totalSize: 37664
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Security.dll
+    role: dll
+    id: 620
+    totalSize: 55808
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Security.pdb
+    role: pdb
+    id: 621
+    totalSize: 44932
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.SecurityCore.dll
+    role: dll
+    id: 622
+    totalSize: 8704
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.SecurityCore.pdb
+    role: pdb
+    id: 623
+    totalSize: 16840
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Stores.dll
+    role: dll
+    id: 624
+    totalSize: 209408
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.Stores.pdb
+    role: pdb
+    id: 625
+    totalSize: 106772
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTCore.dll
+    role: dll
+    id: 626
+    totalSize: 7680
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTCore.pdb
+    role: pdb
+    id: 627
+    totalSize: 16208
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTStub.dll
+    role: dll
+    id: 628
+    totalSize: 4608
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Purchasing.WinRTStub.pdb
+    role: pdb
+    id: 629
+    totalSize: 15560
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll
+    role: dll
+    id: 630
+    totalSize: 16896
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb
+    role: pdb
+    id: 631
+    totalSize: 11948
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteMaskModule.dll
+    role: dll
+    id: 632
+    totalSize: 9728
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteMaskModule.pdb
+    role: pdb
+    id: 633
+    totalSize: 9036
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll
+    role: dll
+    id: 634
+    totalSize: 9728
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb
+    role: pdb
+    id: 635
+    totalSize: 9032
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll
+    role: dll
+    id: 636
+    totalSize: 14336
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb
+    role: pdb
+    id: 637
+    totalSize: 11692
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll
+    role: dll
+    id: 638
+    totalSize: 30208
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb
+    role: pdb
+    id: 639
+    totalSize: 17140
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll
+    role: dll
+    id: 640
+    totalSize: 212992
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb
+    role: pdb
+    id: 641
+    totalSize: 97728
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll
+    role: dll
+    id: 642
+    totalSize: 18432
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb
+    role: pdb
+    id: 643
+    totalSize: 11264
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll
+    role: dll
+    id: 644
+    totalSize: 10240
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb
+    role: pdb
+    id: 645
+    totalSize: 9144
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll
+    role: dll
+    id: 646
+    totalSize: 296448
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb
+    role: pdb
+    id: 647
+    totalSize: 179624
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll
+    role: dll
+    id: 648
+    totalSize: 1222144
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb
+    role: pdb
+    id: 649
+    totalSize: 582360
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll
+    role: dll
+    id: 650
+    totalSize: 23040
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb
+    role: pdb
+    id: 651
+    totalSize: 12680
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll
+    role: dll
+    id: 652
+    totalSize: 16384
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb
+    role: pdb
+    id: 653
+    totalSize: 11792
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll
+    role: dll
+    id: 654
+    totalSize: 11776
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb
+    role: pdb
+    id: 655
+    totalSize: 10120
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll
+    role: dll
+    id: 656
+    totalSize: 27136
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb
+    role: pdb
+    id: 657
+    totalSize: 16988
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VFXModule.dll
+    role: dll
+    id: 658
+    totalSize: 15872
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VFXModule.pdb
+    role: pdb
+    id: 659
+    totalSize: 11316
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll
+    role: dll
+    id: 660
+    totalSize: 11264
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb
+    role: pdb
+    id: 661
+    totalSize: 9776
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll
+    role: dll
+    id: 662
+    totalSize: 24576
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb
+    role: pdb
+    id: 663
+    totalSize: 13600
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json
+    role: json
+    id: 664
+    totalSize: 38790
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Zenject-usage.dll
+    role: dll
+    id: 665
+    totalSize: 22016
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Zenject.dll
+    role: dll
+    id: 666
+    totalSize: 514048
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Zenject.pdb
+    role: pdb
+    id: 667
+    totalSize: 249300
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity
+      default resources
+    role: unity default resources
+    id: 668
+    totalSize: 1110848
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle
+    role: gradle
+    id: 669
+    totalSize: 801
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build.gradle
+    role: gradle
+    id: 670
+    totalSize: 4714
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/build.gradle
+    role: gradle
+    id: 671
+    totalSize: 1643
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle.properties
+    role: properties
+    id: 672
+    totalSize: 270
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/local.properties
+    role: properties
+    id: 673
+    totalSize: 75
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/settings.gradle
+    role: gradle
+    id: 674
+    totalSize: 2183
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/appodeal.androidlib/build.gradle
+    role: gradle
+    id: 675
+    totalSize: 596
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/proguard-unity.txt
+    role: txt
+    id: 676
+    totalSize: 1050
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties
+    role: properties
+    id: 677
+    totalSize: 77
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java
+    role: java
+    id: 678
+    totalSize: 5563
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar
+    role: jar
+    id: 679
+    totalSize: 135864
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml
+    role: xml
+    id: 680
+    totalSize: 111
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml
+    role: xml
+    id: 681
+    totalSize: 169
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml
+    role: xml
+    id: 682
+    totalSize: 245
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v31/styles.xml
+    role: xml
+    id: 683
+    totalSize: 626
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml
+    role: xml
+    id: 684
+    totalSize: 529
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/colors.xml
+    role: xml
+    id: 685
+    totalSize: 132
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml
+    role: xml
+    id: 686
+    totalSize: 181
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml
+    role: xml
+    id: 687
+    totalSize: 395
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml
+    role: xml
+    id: 688
+    totalSize: 359
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml
+    role: xml
+    id: 689
+    totalSize: 266
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml
+    role: xml
+    id: 690
+    totalSize: 266
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png
+    role: png
+    id: 691
+    totalSize: 1746
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png
+    role: png
+    id: 692
+    totalSize: 318
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png
+    role: png
+    id: 693
+    totalSize: 4549
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libmain.so
+    role: so
+    id: 694
+    totalSize: 11640
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so
+    role: so
+    id: 695
+    totalSize: 8720
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/AndroidManifest.xml
+    role: xml
+    id: 696
+    totalSize: 490
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/AndroidManifest.xml
+    role: xml
+    id: 697
+    totalSize: 2130
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/armeabi-v7a/libunity.so
+    role: so
+    id: 698
+    totalSize: 24963356
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so
+    role: so
+    id: 699
+    totalSize: 29917504
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid
+    role: unity_app_guid
+    id: 700
+    totalSize: 36
+  - path: D:/Unity Projects/testAviGames/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint
+    role: build_fingerprint
+    id: 701
+    totalSize: 72
+  - path: D:/Builds/testAviGames/testAviGames.apk
+    role: APK
+    id: 702
+    totalSize: 148855681
+  m_BuildSteps:
+  - stepName: Build player
+    durationTicks: 82947780
+    depth: 0
+    messages: []
+  - stepName: Preprocess Player
+    durationTicks: 443174
+    depth: 1
+    messages:
+    - type: 2
+      content: Facebook App ID / Client Token is empty (Appodeal > Appodeal Settings).
+        This service won't be initialized properly!
+    - type: 0
+      content: '[Appodeal] Firebase Android Configuration file was not found on path
+        ''Assets/google-services.json''. This service cannot be configured correctly.'
+  - stepName: Prepare For Build
+    durationTicks: 57343
+    depth: 1
+    messages: []
+  - stepName: ProducePlayerScriptAssemblies
+    durationTicks: 43506324
+    depth: 1
+    messages: []
+  - stepName: Prebuild Cleanup and Recompile
+    durationTicks: 41407178
+    depth: 2
+    messages: []
+  - stepName: Compile scripts
+    durationTicks: 40985995
+    depth: 3
+    messages: []
+  - stepName: Generate and validate platform script types
+    durationTicks: 195612
+    depth: 3
+    messages: []
+  - stepName: Verify Build setup
+    durationTicks: 1065878
+    depth: 1
+    messages: []
+  - stepName: Check old data build
+    durationTicks: 904433
+    depth: 2
+    messages: []
+  - stepName: Set up scripts only build
+    durationTicks: 73513
+    depth: 2
+    messages: []
+  - stepName: Prepare assets for target platform
+    durationTicks: 1974357
+    depth: 1
+    messages: []
+  - stepName: Prepare splash screen
+    durationTicks: 5065
+    depth: 1
+    messages:
+    - type: 3
+      content: Including Unity Splash Screen logo because 'Show Unity Logo' is enabled.
+  - stepName: Run script only build
+    durationTicks: 511317
+    depth: 1
+    messages: []
+  - stepName: Build scripts DLLs
+    durationTicks: 141156
+    depth: 2
+    messages: []
+  - stepName: GetReferencedAssemblies
+    durationTicks: 4347
+    depth: 3
+    messages: []
+  - stepName: Postprocess built player
+    durationTicks: 33122350
+    depth: 1
+    messages: []
+  - stepName: Initializing
+    durationTicks: 369
+    depth: 2
+    messages: []
+  - stepName: Check gradle project collisions
+    durationTicks: 72
+    depth: 2
+    messages: []
+  - stepName: Preparing banner
+    durationTicks: 39
+    depth: 2
+    messages: []
+  - stepName: Setup incremental player build
+    durationTicks: 576245
+    depth: 2
+    messages: []
+  - stepName: Incremental player build
+    durationTicks: 2829426
+    depth: 2
+    messages: []
+  - stepName: Report output files
+    durationTicks: 357637
+    depth: 2
+    messages: []
+  - stepName: Calling IPostGenerateGradleAndroidProject callbacks
+    durationTicks: 22814
+    depth: 2
+    messages: []
+  - stepName: Cloud Diagnostics Symbol Upload
+    durationTicks: 94
+    depth: 2
+    messages: []
+  - stepName: Building Gradle project
+    durationTicks: 28137453
+    depth: 2
+    messages: []
+  - stepName: Processing Mapping File
+    durationTicks: 358
+    depth: 2
+    messages: []
+  - stepName: Moving output package(s)
+    durationTicks: 502010
+    depth: 2
+    messages: []
+  m_Appendices:
+  - {fileID: -5911041477648040484}
+  - {fileID: -6944739699004808771}
+  - {fileID: 9066327166480132592}
+  - {fileID: -8663449235388161220}
+  - {fileID: -7742745946939267872}
+--- !u!382020655 &9066327166480132592
+PluginBuildInfo:
+  m_RuntimePlugins:
+  - Zenject-usage
+  - AppodealBannerDelegate
+  - AppodealUnityBannerView
+  - common
+  - nunit.framework
+  - AppodealInitializationDelegate
+  - DOTween
+  - Unity.Burst.Unsafe
+  - AppodealAdRevenueDelegate
+  - AppodealMrecViewDelegate
+  - Unity.VisualScripting.Antlr3.Runtime
+  - Newtonsoft.Json
+  - Unity.Collections.LowLevel.ILSupport
+  - AppodealUnityMrecView
+  - AppodealBannerViewDelegate
+  - AppodealInterstitialDelegate
+  - appodeal
+  - AppodealRewardedVideoDelegate
+  - AppodealIAPValidationDelegate
+  - billing-5.2.1
+  m_EditorPlugins:
+  - Google.IOSResolver
+  - JetBrains.Rider.PathLocator
+  - log4netPlastic
+  - BoundedBiharmonicWeightsModule
+  - Unity.Plastic.Newtonsoft.Json
+  - Unity.Plastic.Antlr3.Runtime
+  - Unity.VisualScripting.TextureAssets
+  - zlib64Plastic
+  - DOTweenEditor
+  - Zenject.ReflectionBaking.Mono.Cecil.Mdb
+  - AppleEventIntegration
+  - Google.VersionHandler
+  - Google.JarResolver
+  - Google.VersionHandlerImpl
+  - Unity.VisualScripting.IonicZip
+  - unityplastic
+  - Unity.Burst.Cecil.Pdb
+  - Google.PackageManagerResolver
+  - Zenject.ReflectionBaking.Mono.Cecil
+  - Zenject.ReflectionBaking.Mono.Cecil.Pdb
+  - Unity.VisualScripting.YamlDotNet
+  - Unity.Burst.Cecil.Mdb
+  - liblz4Plastic
+  - Zenject.ReflectionBaking.Mono.Cecil.Rocks
+  - Unity.Burst.Cecil
+  - Unity.Burst.Cecil.Rocks
+  - lz4x64Plastic
+  - Unity.VisualScripting.sqlite3

@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 3f022f68a7d874eb1b321b3d85472ab8, type: 3}
   m_Name: PluginPreferences
-  m_EditorClassIdentifier: AppodealStack.UnityEditor.InternalResources:AppodealStack.UnityEditor.InternalResources:PluginPreferences
+  m_EditorClassIdentifier: 
   areAdaptersImported: 1
   isAndroidLibraryImported: 1
