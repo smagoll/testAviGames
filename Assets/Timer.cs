@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using Zenject;
@@ -15,24 +16,28 @@ public class Timer : MonoBehaviour
     
     public void Launch(float time)
     {
-        coroutineTimer = TimerCoroutine(time, 1f);
+        coroutineTimer = TimerCoroutine(time);
         StartCoroutine(coroutineTimer);
     }
-    
-    private IEnumerator TimerCoroutine(float time, float period) {
+
+    public void Stop()
+    {
+        if (coroutineTimer != null) StopCoroutine(coroutineTimer);
+    }
+
+    private IEnumerator TimerCoroutine(float time)
+    {
         for(float remainingTime = time; remainingTime >= 0; remainingTime--) {
             uiManager.UpdateTime(remainingTime);
             DataManager.instance.UpdateRemainingTime(remainingTime);
-            yield return new WaitForSeconds(period);
+            yield return new WaitForSeconds(1f);
         }
+        
         GlobalEventManager.LoseGame.Invoke();
     }
 
     private void OnEnable()
     {
-        GlobalEventManager.EndGame.AddListener(() =>
-        {
-            if (coroutineTimer != null) StopCoroutine(coroutineTimer);
-        });
+        GlobalEventManager.EndGame.AddListener(Stop);
     }
 }

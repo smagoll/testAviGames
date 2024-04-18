@@ -3,6 +3,8 @@ using AppodealStack.Monetization.Api;
 using AppodealStack.Monetization.Common;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.Purchasing;
+using UnityEngine.Purchasing.Extension;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using Zenject;
 
@@ -74,8 +76,19 @@ public class LevelMaster : MonoBehaviour
         }
     }
     
-    private void OnInterstitialClosed(object sender, EventArgs e)
+    private void OnInterstitialClosed(object sender, EventArgs e) => CreateLevel();
+
+    public void PurchaseComplete(Product product)
     {
-        CreateLevel();
+        float additionalTime = (float)product.definition.payout.quantity;
+        DataManager.instance.gameData.remaining_time += additionalTime;
+        DataManager.instance.Save();
+        
+        timer.Launch(DataManager.instance.gameData.remaining_time);
+    }
+    
+    public void PurchaseFailed(Product product, PurchaseFailureDescription purchaseFailureDescription)
+    {
+        timer.Launch(DataManager.instance.gameData.remaining_time);
     }
 }

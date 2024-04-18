@@ -18,6 +18,8 @@ public class UIManager : MonoBehaviour
     private GameObject endGameWindow; 
     [SerializeField]
     private GameObject loseGameWindow;
+    [SerializeField]
+    private GameObject IAPWindow;
     
     private LevelMaster levelMaster;
 
@@ -26,7 +28,7 @@ public class UIManager : MonoBehaviour
     {
         this.levelMaster = levelMaster;
     }
-    
+
     private void OnEnable()
     {
         GlobalEventManager.UpdateBar.AddListener(UpdateBar);
