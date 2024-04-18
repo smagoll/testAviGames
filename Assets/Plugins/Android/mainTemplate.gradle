@@ -3,6 +3,8 @@ apply plugin: 'com.android.library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    
 // Android Resolver Dependencies Start
     implementation 'com.appodeal.ads.sdk.networks:adcolony:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/AdColonyDependencies.xml:8
     implementation 'com.appodeal.ads.sdk.networks:admob:3.2.1.0' // Assets/Appodeal/Editor/Dependencies/GoogleAdMobDependencies.xml:9
@@ -28,17 +30,12 @@ dependencies {
     implementation 'com.appodeal.ads.sdk:core:3.2.1' // Assets/Appodeal/Editor/Dependencies/AppodealDependencies.xml:7
 // Android Resolver Dependencies End
 
-    implementation('com.appodeal.ads.sdk.networks:my_target:3.2.1.0') {
-        exclude group: 'com.android.billingclient', module: 'billing'
-    }
-    implementation('com.appodeal.ads.sdk.networks:yandex:3.2.1.0') {
-        exclude group: 'com.android.billingclient', module: 'billing'
-    }
+    **DEPS**
+
     configurations.all {
         exclude group: 'com.android.billingclient', module: 'billing'
     }
-
-**DEPS**}
+}
 
 // Android Resolver Exclusions Start
 android {

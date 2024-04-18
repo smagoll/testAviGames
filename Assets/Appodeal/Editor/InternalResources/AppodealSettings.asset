@@ -12,18 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91231c530a82d4be6a47916a15fa89e3, type: 3}
   m_Name: AppodealSettings
   m_EditorClassIdentifier: 
-  adMobAndroidAppId: ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy
-  adMobIosAppId: ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy
+  adMobAndroidAppId: ca-app-pub-8502018518925256~9894311246
+  adMobIosAppId: ca-app-pub-8502018518925256~9894311246
   accessCoarseLocationPermission: 0
-  writeExternalStoragePermission: 0
-  accessWifiStatePermission: 0
+  writeExternalStoragePermission: 1
+  accessWifiStatePermission: 1
   vibratePermission: 0
   accessFineLocationPermission: 0
   nSUserTrackingUsageDescription: 0
   nSLocationWhenInUseUsageDescription: 0
   nSCalendarsUsageDescription: 0
   nSAppTransportSecurity: 0
-  iosSkAdNetworkItems: 0
+  iosSkAdNetworkItems: 1
   iosSkAdNetworkItemsList:
   - v9wttpbfk9.skadnetwork
   - n38lu8286q.skadnetwork
@@ -2747,7 +2747,7 @@ MonoBehaviour:
   facebookIosAppId: 
   facebookAndroidClientToken: 
   facebookIosClientToken: 
-  firebaseAutoConfiguration: 0
-  facebookAutoConfiguration: 0
-  facebookAutoLogAppEvents: 0
-  facebookAdvertiserIDCollection: 0
+  firebaseAutoConfiguration: 1
+  facebookAutoConfiguration: 1
+  facebookAutoLogAppEvents: 1
+  facebookAdvertiserIDCollection: 1
